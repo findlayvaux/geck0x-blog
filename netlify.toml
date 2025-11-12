@@ -1,7 +1,7 @@
 [build]
   base    = "site"                 # enter the Hugo site dir
   publish = "public"               # Hugo output dir
-  command = "hugo --gc --minify"   # build with Hugo
+  command = "hugo --gc"		   # build with Hugo
 
 [build.environment]
   HUGO_VERSION = "0.147.0"         # >= 0.146.0 for PaperMod
