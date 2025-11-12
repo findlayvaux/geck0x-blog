@@ -1,20 +1,7 @@
-[build.environment]
-  NETLIFY_USE_YARN = "true"
-  YARN_VERSION = "1.22.17"
-
 [build]
-  command = "yarn build"
-  publish = "dist"
+  base    = "site"                 # enter the Hugo site dir
+  publish = "public"               # Hugo output dir
+  command = "hugo --gc --minify"   # build with Hugo
 
-[context.deploy-preview]
-  command = "yarn build:preview"
-
-[dev]
-  framework = "hugo"
-  targetPort = 3000
-
-[[plugins]]
-  package = "netlify-plugin-cypress"
-
-  [plugins.inputs]
-    record = true
+[build.environment]
+  HUGO_VERSION = "0.147.0"         # >= 0.146.0 for PaperMod
