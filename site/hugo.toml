@@ -1,7 +1,9 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Kaldi"
+title = "Geck0x"
+theme = "PaperMod"
+
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
@@ -9,4 +11,35 @@ title = "Kaldi"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
-images = ["img/og-image.jpg"]
+  images = ["img/og-image.jpg"]
+  env = "production"
+  title = "Geck0x Crypto Blog"
+  description = "A Hugo site using PaperMod"
+  author = "Geck0x"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = false
+  comments = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/post/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
