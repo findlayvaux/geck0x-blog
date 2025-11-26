@@ -8,4 +8,4 @@ We build tools. We educate. We HODL.
 
 We started this blog focused on blockchain education with one simple goal: make crypto easy to understand -- and safer for users. 
 
-Let's make Base safe again. 
+Let's make crypto better, fam. 
