@@ -5,7 +5,7 @@ description = "Geck0x Crypto Safety Blog. Learn how to use crypto safely."
 
 # Geck0x Crypto Safety Blog
 
-Yo, fam! Geck0x here — the lizard from Lumpy Island who scans the code so you don’t get rugged.
+Yo, fam! Geck0x here — the lizard from Lumpy Island who scans the code for critters so you don’t get rugged.
 
 {{< video src="/media/geck0x-hacking.webm" >}}
 
