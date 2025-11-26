@@ -4,11 +4,7 @@ languageLang = "en"
 title = "Geck0x"
 theme = "PaperMod"
 
-
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS", "taxonomy"]
 
 [params]
   images = ["img/og-image.jpg"]
@@ -24,6 +20,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   ShowCodeCopyButtons = true
   disableSpecial1stPost = false
   comments = false
+  homeInfoParams = false
 
 [menu]
   [[menu.main]]
@@ -35,7 +32,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
-    url = "/post/"
+    url = "/posts/"
     weight = 2
 
   [[menu.main]]
@@ -43,3 +40,9 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     name = "About"
     url = "/about/"
     weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

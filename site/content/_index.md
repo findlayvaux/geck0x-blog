@@ -2,5 +2,7 @@
 title = "Home"
 +++
 
-Welcome to my site built with PaperMod and Hugo.
+# Geck0x Crypto Safety Blog
+
+{{< video src="/media/geck0x-hacking.webm" >}}
 
