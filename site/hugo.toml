@@ -14,13 +14,14 @@ disableKinds = ["RSS", "taxonomy"]
   author = "Geck0x"
   defaultTheme = "auto"
   ShowReadingTime = true
-  ShowShareButtons = false
+  ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   disableSpecial1stPost = false
   comments = false
   homeInfoParams = false
+  # (NO logo params needed now)
 
 [menu]
   [[menu.main]]
