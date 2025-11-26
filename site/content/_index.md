@@ -9,10 +9,10 @@ Yo, fam! Geck0x here — the lizard from Lumpy Island who scans the code for cri
 
 {{< video src="/media/geck0x-hacking.webm" >}}
 
-Crypto’s like that old Grandmaster Flash jam I’ve got playing in my Beats right now: *“It’s like a jungle sometimes, it makes me wonder how I keep from going under.”*
+Crypto’s like that old Grandmaster Flash jam I’ve got playing in my Beats right now: 
 
-Good news, ladies and newts — I’m here to help make the jungle safe again.
+*“It’s like a jungle sometimes, it makes me wonder how I keep from going under.”*
 
-Around here, we keep it smart, real, and beginner-friendly. New to wallets? I got you. Wondering what the heck a DeFi is? No worries, I’ll explain it. We’ll break it all down together.
+Good news, ladies and newts — I’m here to help make the jungle safe again. Around here, we keep it smart, real, and beginner-friendly. New to wallets? I got you. Wondering what the heck a DeFi is? No worries, I’ll explain it. We’ll break it all down together.
 
 Let's dive in.
