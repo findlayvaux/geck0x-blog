@@ -7,7 +7,7 @@ theme = "PaperMod"
 disableKinds = ["RSS", "taxonomy"]
 
 [params]
-  images = ["img/og-image.png"]
+  images = ["img/geck0x-og.png"]
   env = "production"
   title = "Geck0x Crypto Blog"
   description = "A Hugo site using PaperMod"
