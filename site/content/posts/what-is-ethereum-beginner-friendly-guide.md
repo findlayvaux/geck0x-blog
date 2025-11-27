@@ -1,11 +1,11 @@
-+++
+_+++
 title = "🦎 What Is Ethereum? A Beginner-Friendly Guide to the EVM"
 description = "Learn how Ethereum works. No pointy wizard hat needed."
 date = "2025-11-23T01:16:47-0500"
 draft = false
 +++
 
-Crypto talk gets full of jargon-y nerd-speak pretty fast. But it's simpler than it seems. Let’s slow down the Nerd Express and start with the basics. Ethereum is the engine behind most of the cool stuff you see on the Base chain and throughout and much of the crypto world. Once you understand how Ethereum works, it's like seeing the world below from an airplane. Instantly, it all fits together, and all this crypto stuff — even beyond Ethereum — makes more sense. 
+Crypto talk gets full of jargon-y geek-speak pretty fast. But it's simpler than it seems. Let’s slow down the Nerd Express and start with the basics. Ethereum is the engine behind most of the cool stuff you see on the Base chain and throughout and much of the crypto world. Once you understand how Ethereum works, it's like seeing the world below from an airplane. Instantly, it all fits together, and all this crypto stuff — even beyond Ethereum — makes more sense. 
 
 Pour yourself a mug of hot cocoa and pull up your comfy chair. The gecko will guide you. Let's learn what Ethereum is and what made it the greatest crypto innovation since Satoshi pressed the GO button on Bitcoin.
 
@@ -13,7 +13,7 @@ Pour yourself a mug of hot cocoa and pull up your comfy chair. The gecko will gu
 
 - Ethereum works like a worldwide, shared computer that anyone can access with a crypto wallet. That's right. No grouchy banks. No gatekeepers. No sneaky peekers at the ATM. It's free, as in freedom.
 
-- Instead of using middlemen to send money to your friend who's always broke, Ethereum uses smart contracts. These small computer programs live on the blockchain and can move value from you to your broke friend without anyone else in the middle of it. Hopefully, that broke @$%&! sends the ETH back one day.
+- Instead of using middlemen to send money to your friend who's always broke, Ethereum uses smart contracts. These small computer programs live on the blockchain and can move value from you to your broke friend without anyone else in the middle of it. Hopefully, that broke @%*&! sends the ETH back one day.
 
 - The Ethereum Virtual Machine (EVM) is the clever bit that actually runs these programs, and it lives on EVERY full node. Any chain built with the EVM can use the same apps and tools.
 
@@ -23,7 +23,7 @@ Pour yourself a mug of hot cocoa and pull up your comfy chair. The gecko will gu
 
 ## **Ethereum in plain English**
 
-Ethereum is a shared computer that lives on thousands of machines (validators) around the world. Nobody owns the network and nobody can change the rules just because their lunch tasted funny and someone's gonna pay. Remember that time the bank let that charge for  @$%&!-hub go through even though you swore it wasn't you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you...
+Ethereum is a shared computer that lives on thousands of machines (validators) around the world. Nobody owns the network and nobody can change the rules just because their lunch tasted funny and someone's gonna pay. Remember that time the bank let that charge for @%*&!-hub go through even though you swore it wasn't you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you...
 
 And the blockchain is open. Anyone -- anywhere in the world -- can send transactions, read the data, or run programs on the EVM. It just takes a bit of ETH to grease the silicon wheels. ETH functions as the gas token to keep the machines purring along.
 
@@ -39,4 +39,4 @@ Think of it like buying a candy bar from a vending machine. You feed the machine
 
 Smart contracts take the no-permission-needed idea and apply it to finance, games, art, tokens, and everything else. Every decentralized finance (DeFi) protocol, NFT marketplace, and memecoin is powered by these contracts. They work like switches. If this happens, do that. And they do the same thing every time the same condition exists.
 
-Base uses these EVM smart contracts, does the math and switch logic on the fly, and then passes the transactions to Ethereum in bulk. Base says to Ethereum, "Yo, big brother, this is my record of what happened. Make sure nobody can change it."
+Base uses these EVM smart contracts, does the math and switch logic on the fly, and then passes the transactions to Ethereum in bulk. Base says to Ethereum, "Yo, big brother, this is my record of what happened. Make sure nobody can change it."_
