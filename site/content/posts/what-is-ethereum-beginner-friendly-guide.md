@@ -39,8 +39,8 @@ It's not all about ETH, though. ETH is the gas token and a store of value in its
 
 Smart contracts run by themselves once deployed. Some are “set in stone” and never change. Others include admin or upgrade functions, which means the developer can update parts of the contract or control certain features. **Always check for owner permissions before trusting a token contract.** They can have some sneaky functions like blacklisting wallet addresses (so you can't transfer or sell).
 
-Think of it like buying a candy bar from a vending machine. You feed the machine seventeen quarters and press the button. Bingo-Bango! Now, you're eating, too. No arguments. No manager needed. Everyone gets the same result. And you don't need to ask Mom, goshdarnit.
+Think of it like buying a candy bar from a vending machine. You feed the machine the right amount of quarters and press the button. Bingo-Bango! Now, you're eating, too. No middleman needed, and everyone gets the same result, given the same conditions. **It's determinstic.** And you don't need to ask Mom for permission, goshdarnit.
 
-Smart contracts take the no-permission-needed idea and apply it to finance, games, art, tokens, and everything else on the chain. Every decentralized finance (DeFi) protocol, NFT marketplace, and memecoin is powered by these contracts. **They work like switches. If this happens, do that.** And they do the same thing every time the same condition trips the switch.
+Smart contracts take the permissionless concept and apply it to finance, games, art, tokens, and everything else on the chain. Every decentralized finance (DeFi) protocol, NFT marketplace, and memecoin is powered by these contracts. **They work like switches. If this happens, do that.** And they do the same thing every time the same condition trips the switch.
 
 Base uses these EVM smart contracts, does the math and switch logic on the fly, and then passes the transactions to Ethereum in bulk. Base says to Ethereum, "Yo, big brother, this is my record of what happened. **Make sure nobody can change it.**"
