@@ -25,20 +25,22 @@ Once you understand how Ethereum works, it's like seeing the world below from an
 
 ## **Ethereum in plain English**
 
-Ethereum is a shared computer that lives on thousands of machines (validators) around the world. Nobody owns the network and nobody can change the rules just because their lunch tasted funny and someone's gonna pay. Remember that time the bank let that charge for @%*&!-hub go through even though you swore it wasn't you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you...
+Ethereum is a shared computer that lives on thousands of machines (validators) around the world. **Nobody owns the network** and nobody can change the rules just because theit GrubHub order was wrong and now and someone's gonna pay. 
 
-And the blockchain is open. Anyone -- anywhere in the world -- can send transactions, read the data, or run programs on the EVM. It just takes a bit of ETH to grease the silicon wheels. ETH functions as the gas token to keep the machines purring along.
+Remember that time the bank let that charge for @%*&!-hub go through even though you swore it wasn't you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you... well, let's just say the blockchain never forgets.
 
-In the early days, they called Ethereum a “world computer.” It's a global network of computers that all execute the same smart contracts and must agree on the same results.
+And the blockchain is open, permissionless, as they say. Anyone -- anywhere in the world -- can send transactions, read the data, or run programs on the EVM. It just takes a bit of ETH to grease the silicon wheels. **ETH functions as the gas token** to keep the machines purring along.
+
+In the early days, they called Ethereum a “world computer.” It's a global network of computers that all execute the same smart contracts and **must agree** on the same results.
 
 It's not all about ETH, though. ETH is the gas token and a store of value in its own right, but the network also supports tokens. These might be fun memecoin tokens, or utility tokens that unlock features. Tokens represent ownership, but whatever they represent may or may not have value. That's up to the market to decide.
 
 ## **Smart contracts: programs that run by themselves**
 
-Smart contracts run by themselves once deployed. Some are “set in stone” and never change. Others include admin or upgrade functions, which means the developer can update parts of the contract or control certain features. Always check for owner permissions before trusting a token contract. They can have some sneaky functions like blacklisting wallet addresses (so you can't transfer or sell).
+Smart contracts run by themselves once deployed. Some are “set in stone” and never change. Others include admin or upgrade functions, which means the developer can update parts of the contract or control certain features. **Always check for owner permissions before trusting a token contract.** They can have some sneaky functions like blacklisting wallet addresses (so you can't transfer or sell).
 
 Think of it like buying a candy bar from a vending machine. You feed the machine seventeen quarters and press the button. Bingo-Bango! Now, you're eating, too. No arguments. No manager needed. Everyone gets the same result. And you don't need to ask Mom, goshdarnit.
 
-Smart contracts take the no-permission-needed idea and apply it to finance, games, art, tokens, and everything else. Every decentralized finance (DeFi) protocol, NFT marketplace, and memecoin is powered by these contracts. They work like switches. If this happens, do that. And they do the same thing every time the same condition exists.
+Smart contracts take the no-permission-needed idea and apply it to finance, games, art, tokens, and everything else on the chain. Every decentralized finance (DeFi) protocol, NFT marketplace, and memecoin is powered by these contracts. **They work like switches. If this happens, do that.** And they do the same thing every time the same condition trips the switch.
 
-Base uses these EVM smart contracts, does the math and switch logic on the fly, and then passes the transactions to Ethereum in bulk. Base says to Ethereum, "Yo, big brother, this is my record of what happened. Make sure nobody can change it."_
+Base uses these EVM smart contracts, does the math and switch logic on the fly, and then passes the transactions to Ethereum in bulk. Base says to Ethereum, "Yo, big brother, this is my record of what happened. **Make sure nobody can change it.**"
