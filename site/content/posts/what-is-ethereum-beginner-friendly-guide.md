@@ -1,11 +1,11 @@
 +++
 title = "🦎 What Is Ethereum? A Beginner-Friendly Guide to the EVM"
-description = "Learn how Ethereum works. No pointy wizard hat needed"
+description = "Learn how Ethereum works. No pointy wizard hat needed."
 date = "2025-11-23T01:16:47-0500"
 draft = false
 +++
 
-Crypto talk gets full of jargon-y nerd-speak pretty fast. But it's simpler than it seems. Let’s slow down the Nerd Express and start with the basics. Ethereum is the engine behind most of the cool stuff you see on the Base chain throughout and much of the crypto world. Once you understand how Ethereum works, it's like seeing the world below from an airplane. Instantly, it all fits together and all this crypto stuff — even beyond Ethereum — makes sense. 
+Crypto talk gets full of jargon-y nerd-speak pretty fast. But it's simpler than it seems. Let’s slow down the Nerd Express and start with the basics. Ethereum is the engine behind most of the cool stuff you see on the Base chain and throughout and much of the crypto world. Once you understand how Ethereum works, it's like seeing the world below from an airplane. Instantly, it all fits together and all this crypto stuff — even beyond Ethereum — makes sense. 
 
 Pour yourself a mug of hot cocoa and pull up your comfy chair. The gecko will guide you. Let's learn what Ethereum is and what made it the greatest crypto innovation since Satoshi pressed the GO button on Bitcoin.
 
