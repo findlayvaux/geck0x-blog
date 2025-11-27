@@ -1,4 +1,4 @@
-_+++
++++
 title = "🦎 What Is Ethereum? A Beginner-Friendly Guide to the EVM"
 description = "Learn how Ethereum works. No pointy wizard hat needed."
 date = "2025-11-23T01:16:47-0500"
