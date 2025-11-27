@@ -4,6 +4,7 @@ description = "Learn how Ethereum works. No pointy wizard hat needed."
 date = "2025-11-23T01:16:47-0500"
 draft = false
 +++
+![ethereum homepage](/img/ethereum-homepage.png "ethereum homepage")
 
 Crypto talk gets full of jargon-y geek-speak pretty fast. But it's simpler than it seems. Let’s slow down the Nerd Express and start with the basics. Ethereum is the engine behind most of the cool stuff you see on the Base chain and throughout and much of the crypto world. 
 
@@ -30,6 +31,8 @@ Ethereum is a shared computer that lives on thousands of machines (validators) a
 Remember that time the bank let that charge for @%*&!-hub go through even though you swore it wasn't you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you... well, let's just say the blockchain never forgets.
 
 And the blockchain is open, permissionless, as they say. Anyone -- anywhere in the world -- can send transactions, read the data, or run programs on the EVM. It just takes a bit of ETH to grease the silicon wheels. **ETH functions as the gas token** to keep the machines purring along.
+
+![ethereum gas fees](/img/ethereum-gas-fees.png "ethereum gas fees")
 
 In the early days, they called Ethereum a “world computer.” It's a global network of computers that all execute the same smart contracts and **must agree** on the same results.
 
