@@ -26,7 +26,7 @@ Once you understand how Ethereum works, it's like seeing the world below from an
 
 ## **Ethereum in plain English**
 
-Ethereum is a shared computer that lives on thousands of machines (validators) around the world. **Nobody owns the network** and nobody can change the rules just because the food joint got their lunch order wrong and now *someone's gonna pay. *
+Ethereum is a shared computer that lives on thousands of machines (validators) around the world. **Nobody owns the network** and nobody can change the rules just because the food joint got their lunch order wrong and now _someone's gonna pay_.
 
 Remember that time the bank let that charge for @%*&!-hub go through even though you swore it wasn't you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you... well, let's just say the blockchain never forgets.
 
