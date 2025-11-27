@@ -5,7 +5,9 @@ date = "2025-11-23T01:16:47-0500"
 draft = false
 +++
 
-Crypto talk gets full of jargon-y geek-speak pretty fast. But it's simpler than it seems. Let’s slow down the Nerd Express and start with the basics. Ethereum is the engine behind most of the cool stuff you see on the Base chain and throughout and much of the crypto world. Once you understand how Ethereum works, it's like seeing the world below from an airplane. Instantly, it all fits together, and all this crypto stuff — even beyond Ethereum — makes more sense. 
+Crypto talk gets full of jargon-y geek-speak pretty fast. But it's simpler than it seems. Let’s slow down the Nerd Express and start with the basics. Ethereum is the engine behind most of the cool stuff you see on the Base chain and throughout and much of the crypto world. 
+
+Once you understand how Ethereum works, it's like seeing the world below from an airplane. Instantly, it all fits together, and all this crypto stuff — even beyond Ethereum — makes more sense. 
 
  Let's learn what Ethereum is and what made it the greatest crypto innovation since Satoshi pressed the GO button on Bitcoin. The gecko will guide you.
 
