@@ -15,6 +15,7 @@ disableKinds = ["RSS", "taxonomy"]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
+  ShareButtons = ["x", "linkedin", "reddit", "facebook"]
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true

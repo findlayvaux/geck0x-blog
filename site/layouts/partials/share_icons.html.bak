@@ -1,0 +1,49 @@
+<ul class="share-buttons">
+
+    {{ if in site.Params.ShareButtons "x" }}
+    <li>
+        <a target="_blank" rel="noopener" href="https://x.com/intent/tweet/?text={{ .Title }}&url={{ .Permalink }}">
+            <!-- X SVG -->
+            <svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor">
+                <path d="M512 62.554...Z" />
+            </svg>
+        </a>
+    </li>
+    {{ end }}
+
+    {{ if in site.Params.ShareButtons "linkedin" }}
+    <li>
+        <a target="_blank" rel="noopener"
+            href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}">
+            <!-- LinkedIn SVG -->
+            <svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor">
+                <path d="M449.446,0c34.5..." />
+            </svg>
+        </a>
+    </li>
+    {{ end }}
+
+    {{ if in site.Params.ShareButtons "reddit" }}
+    <li>
+        <a target="_blank" rel="noopener" href="https://reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}">
+            <!-- Reddit SVG -->
+            <svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor">
+                <path d="M449.4,0c34.52..." />
+            </svg>
+        </a>
+    </li>
+    {{ end }}
+
+    {{ if in site.Params.ShareButtons "facebook" }}
+    <li>
+        <a target="_blank" rel="noopener" href="https://facebook.com/sharer/sharer.php?u={{ .Permalink }}">
+            <!-- Facebook SVG -->
+            <svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor">
+                <path d="M449.4,0c34.5..." />
+            </svg>
+        </a>
+    </li>
+    {{ end }}
+
+</ul>
+
