@@ -215,7 +215,7 @@ Understanding Ethereum means you understand the blueprint for:
 
 Ethereum didn’t just create a network. It created an ecosystem standard that powers some of the most used chains in all of cryptoland.
 
-## **Risks and Limitations (it'd like a jungle sometimes)**
+## **Risks and Limitations (it's like a jungle sometimes)**
 
 Ethereum is pretty awesome, but it isn't perfect (yet). Using the ecosystem comes with occasional tradeoffs and some risks you'll want to avoid.
 
