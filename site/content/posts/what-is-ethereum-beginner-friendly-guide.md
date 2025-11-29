@@ -31,7 +31,7 @@ Ethereum is a shared computer that lives on thousands of machines (validators) a
 
 Remember that time the bank let that charge for @%*&!-hub go through even though you swore it wasn't you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you... well, let's just say the blockchain never forgets.
 
-And the blockchain is open, permissionless, as they say. Anyone -- anywhere in the world -- can send transactions, read the transaction data, or run programs on the Ethererum Virtual Machine (EVM). The virtual bit just means the network runs in an isolated environment where nobody can fiddle with the transactions. It just takes a bit of ETH to grease the silicon wheels. **ETH functions as the gas token** to keep the machines purring along. More on that i a bit, fam.
+And the blockchain is open, permissionless, as they say. Anyone -- anywhere in the world -- can send transactions, read the transaction data, or run programs on the Ethererum Virtual Machine (EVM). The virtual bit just means the network runs in an isolated environment where nobody can fiddle with the transactions. It just takes a bit of ETH to grease the silicon wheels. **ETH functions as the gas token** to keep the machines purring along. More on that in a bit, fam.
 
 ![ethereum gas fees](/img/ethereum-gas-fees.png "ethereum gas fees")
 
