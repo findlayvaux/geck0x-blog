@@ -4,33 +4,26 @@
   padding: 14px 32px;
   font-size: 1.25rem;
   font-weight: 600;
-  color: #ffffff;
+  color: #000000;
   background-color: #00c069;
-  border: none;   /* KEEP THIS THE SAME */
+  border: none;
   border-radius: 10px;
   margin: 2rem auto;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  
+  /* --- THE FIX --- */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  transition: color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .btn:hover {
-  background-color: #00a85a;  /* darker green */
-  border: none;  /* SAME SIZE BORDER */
-  transform: translateY(-1px); /* optional tiny hover lift */
+  color: #005a33;
 }
 
-/* --- THE FIX --- */
 .btn:focus {
-  /* This removes the default outline to prevent the jump */
-  outline: none; 
-  
-  /* This adds a custom, accessible, and non-jumping outline */
+  outline: none;
   box-shadow: 0 0 0 3px rgba(0, 192, 105, 0.5);
-}
-
-/* Optional: A style for when the button is actively being clicked */
-.btn:active {
-  transform: translateY(0);
-  background-color: #00954e;
 }
