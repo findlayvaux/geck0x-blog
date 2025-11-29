@@ -29,7 +29,7 @@ Once you understand how Ethereum works, it's like seeing the world below from an
 
 Ethereum is a shared computer that lives on thousands of machines (validators) around the world. **Nobody owns the network** and nobody can change the rules just because the food joint got their lunch order wrong and now _someone's gonna pay_.
 
-Remember that time the bank let that charge for @%*&!-hub go through even though you swore it wasn't you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you... well, let's just say the blockchain never forgets.
+Remember that time the bank let that charge for @%*&!-hub go through even though you swore it wasn't you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you... well, let's just say the blockchain never forgets what you did with your crypto wallet.
 
 And the blockchain is open, permissionless, as they say. Anyone -- anywhere in the world -- can send transactions, read the transaction data, or run programs on the Ethererum Virtual Machine (EVM). The virtual bit just means the network runs in an isolated environment where nobody can fiddle with the transactions. It just takes a bit of ETH to grease the silicon wheels. **ETH functions as the gas token** to keep the machines purring along. More on that in a bit, fam.
 
@@ -37,7 +37,7 @@ And the blockchain is open, permissionless, as they say. Anyone -- anywhere in t
 
 In the early days, they called Ethereum a “world computer.” It's a global network of computers that all execute the same smart contracts and **must agree** on the same results.
 
-It's not all about ETH, though. ETH is the gas token and a store of value in its own right, but the network also supports tokens. These might be fun memecoin tokens, or utility tokens that unlock features. Tokens represent ownership, but whatever they represent may or may not have value. That's up to the market to decide.
+It's not all about ETH, though. ETH is the gas token and a store of value in its own right, but the network also supports programmable tokens. These might be fun memecoin tokens, or utility tokens that unlock features. Tokens represent ownership, but whatever they represent may or may not have value. That's up to the market to decide.
 
 ## **Smart contracts: programs that run by themselves**
 
@@ -63,7 +63,7 @@ At a high level, there are two big types of tokens you’ll see all the time on 
 
 ### **Fungible tokens: one unit = any other unit**
 
-This is the “all copies are the same” bucket.
+This is the “all copies are the same” group.
 
 Most fungible tokens follow the ERC-20 standard (fungible). This standard helps wallet apps know what to do with these digital critters.
 
@@ -87,12 +87,11 @@ Then you have ERC-721 tokens, better known as NFTs (non-fungible tokens). With N
     
 - Land in some metaverse thingee
     
-- Access passes
+- Event passes
     
 - Whatever the dev dreamed up at 4 ayem, while high as a kite
 
-Owning an ERC-721 token usually means:  
-“Wallet X controls token #1234 in this collection, and the contract says what that means.”
+Owning an ERC-721 token usually means: “Wallet X controls token #1234 in this collection, and the contract's code determines what that token represents.”
 
 There's also ERC-1155, which is like a caterpillar that becomes a butterfly (both delicious, btw). Tokens with the ERC-1155 standard can handle either:
 
@@ -118,7 +117,7 @@ Tokens represent something, but that “something” isn't guaranteed to be wort
     
 - Represent access or utility (like a game pass or governance vote)
     
-- Represent pure chaos or community vibes (memecoins)
+- Represent a culture or community vibes (memecoins)
 
 Whether the token actually holds value is up to the market, not the code or token type. Just remember: **Anyone can make a token.** Yeah, even that spooky dude you saw at the store. Some are good, some are bad, some are ugly.
 
@@ -134,7 +133,7 @@ Think of gas like paying the pizza guy. He’ll bring the food, but he’s not d
 
 * When it’s quiet, gas goes down.
 
-But the code complexity also plays a role. If the code reads like a Gordian knot that no one can untangle, everyone who uses the contract pays more than they would with tight, clean code.
+But the code's complexity also plays a role. If the code reads like a Gordian knot that no one can untangle, everyone who uses the contract pays more than they would with tight, clean code.
 
 L2 networks like Base help with gas costs by taking your transactions, compressing them, and giving Ethereum less work to do. This keeps gas costs lower. But the rule stays true, whether on Ethereum, Base, or any other EVM network:
 
@@ -172,15 +171,15 @@ You still use ETH for gas.
 
 You use less of it.
 
-A lot of the same apps that are huge hits exist on Layer 2 networks as well. AND, Layer 2 networks develop their own ecosystems. A whole bunch of decentralized apps (dApps) live only on Base, or Arbitrum, or even Degen (a Base Layer 3 network).
+A lot of the same apps that are huge hits on Ethereum exist on Layer 2 networks as well. AND, Layer 2 networks develop their own ecosystems. A whole bunch of decentralized apps (dApps) live only on Base, or Arbitrum, or even Degen (a Layer 3 network under Base).
 
 ## **Why Ethereum Matters (and why geeks won’t shut up about it)**
 
-Ethereum solved a problem. Bitcoin is cool, but it doesn't support enough commands to call it a programmable blockchain. It wasn't "Turing complete." Ethereum lets anyone build apps that can do virtually anything. And it made the network open to everyone. You, me, the weird guy at the bus stop, we can all deploy smart contracts to the network.
+Ethereum solved a problem. Bitcoin is cool, but it doesn't support enough commands to call it a programmable blockchain. It wasn't "Turing complete." Ethereum's enhanced programmability lets anyone build apps that can do virtually anything. And it made the network open to everyone. You, me, the weird guy at the bus stop, we can all deploy smart contracts to the network.
 
 Ethereum's open, code-executing network unlocked a world of goodies.
 
-* decentralized finance (DeFi)
+* DeFi
 
 * NFTs
 
@@ -218,7 +217,7 @@ Ethereum didn’t just create a network. It created an ecosystem standard that p
 
 ## **Risks and Limitations (it'd like a jungle sometimes)**
 
-Ethereum is pretty awesome, but it isn't perfect (yet). Using the ecosystem comes with occasional tradeoffs:.
+Ethereum is pretty awesome, but it isn't perfect (yet). Using the ecosystem comes with occasional tradeoffs and some risks you'll want to avoid.
 
 ### **Gas fees can spike**
 
@@ -227,7 +226,7 @@ Sometimes they make you shout, "@%*&!" Twice.
 
 ### **Smart contracts can have bugs**
 
-Most smart contracts can't be changed after they're deployed. Bugs stay buggy. However, some contracts have upgrade permissions, which is a whole different can of rattlesnakes.
+Most smart contracts can't be changed after they're deployed. Bugs stay buggy. Forever. However, some contracts have upgrade permissions, which is a whole different bag of rattlesnakes.
 
 ### **Scams everywhere**
 
@@ -237,11 +236,11 @@ Freedom to transact without intermediaries comes with the freedom to get scammed
 
 Sent ETH to the wrong address?
 
-Blockchain says, “Tough tacos, toots. Maybe next time put down the bong.”
+Blockchain says, “Tough tacos, toots. Maybe next time put down the bong, first.”
 
 ### **Complex for beginners**
 
-Ethereum is wonderfully nerdy stuff. But that also makes it a bit tougher to use. The good news is that the good devs are working to make it easier to for all of us, abstracting all the nerdy code stuff and giving users a simpler interface. 
+Ethereum is wonderfully nerdy stuff. But that also makes it a bit tougher to use if you're new to this. The good news is that the Based devs are working to make it easier to for all of us, abstracting all the geeky code stuff and giving users a simpler interface for powerful dApps. Point. Click. Done.
 
 Case in point: [Token Bundles on Lumpy Labs](https://lumpylabs.com/bundles). Buy up to five tokens in a few clicks. All that shizzle would take a few days to track down and buy without this cool tool.
 
@@ -253,6 +252,6 @@ Case in point: [Token Bundles on Lumpy Labs](https://lumpylabs.com/bundles). Buy
   </a>
 </div>
 
-Despite the occasional blockchain gotchas, Ethereum has proven to be the most battle-tested programmable blockchain in the cryptoverse and there are tons of great projects in the ecosystem. Ethereum's also the base layer that keeps the L2 chains secure. 
+Despite the occasional blockchain gotchas you'll learn to avoid, Ethereum has proven to be the most battle-tested programmable blockchain in the cryptoverse and there are tons of great projects in the ecosystem. Ethereum's also the base layer that keeps the L2 chains secure. 
 
 Vive la Ethereum!
