@@ -237,7 +237,7 @@ Freedom to transact without intermediaries comes with the freedom to get scammed
 
 Sent ETH to the wrong address?
 
-Blockchain says, “Tough tacos. Put down the bong, next time.”
+Blockchain says, “Tough tacos, toots. Maybe next time put down the bong.”
 
 ### **Complex for beginners**
 
