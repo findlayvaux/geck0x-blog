@@ -11,7 +11,7 @@ Crypto talk turns into geek-speak pretty fast. But it's simpler than it seems. L
 
 Once you understand how Ethereum works, it's like seeing the world below from an airplane. Instantly, it all fits together, and all this crypto stuff — even beyond Ethereum — makes more sense. 
 
- Let's learn what Ethereum is and what made it the greatest crypto innovation since Satoshi pressed the GO button on Bitcoin. The gecko will guide you.
+Let's learn what Ethereum is and what made it the greatest crypto innovation since Satoshi pressed the GO button on Bitcoin. The gecko will guide you.
 
 ## **Quick takeaways**
 
