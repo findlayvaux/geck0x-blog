@@ -57,7 +57,9 @@ On Ethereum and Base, a token is just a number with rules wrapped around it. A s
 
 You can think of tokens as on-chain ownership receipts. Instead of being tracked on a spreadsheet on some company’s laptop, the ledger lives on Ethereum (or Base), where everyone can read it, and nobody can quietly tweak the numbers when everyone's watching football.
 
-At a high level, there are two big types of tokens you’ll see all the time on EVM networks:
+At a high level, there are two big types of tokens you’ll see all the time on EVM networks, and a third kind that's becoming more popular due to its ability to change forms.
+
+![layer 2 ethereum security](/img/evm-token-standards.webp "layer 2 ethereum security")
 
 ### **Fungible tokens: one unit = any other unit**
 
@@ -98,7 +100,7 @@ There's also ERC-1155, which is like a caterpillar that becomes a butterfly (bot
     
 - Non-fungible items (for example, a legendary sword in a nerdy Web3 game)
 
-The cool trick with ERC-1155 (semi-fungible tokens) is that they're changelings. One instant, they're the same as all the others... until a specific condition is met. Then, Presto, Bango! Now, they're unique NFTs.
+The cool trick with [ERC-1155 (semi-fungible tokens)](https://ethereum.org/developers/docs/standards/tokens/erc-1155) is that they're changelings. One instant, they're the same as all the others... until a specific condition is met. Then, Presto-Bango! Now, they're unique NFTs.
     
 These are handy for games and more complex projects.
 
@@ -139,3 +141,118 @@ L2 networks like Base help with gas costs by taking your transactions, compressi
 **If the EVM runs, you pay gas.**
 
 It's the way of the World Computer
+
+## **Layer 2s: Ethereum’s helpful sidekicks**
+
+Ethereum’s great, but it can get crowded, and all it takes is one viral app to ruin the party for everyone. Case in point, [CryptoKitties broke everyone's crypto superhighway](https://consensys.io/blog/the-inside-story-of-the-cryptokitties-congestion-crisis) with its NFT cat thingees. The whole network slowed to a crawl while people littered the internet with network-clogging NFT furballs. Even the simplest transactions cost a ton of ETH. Booo!
+
+![layer 2 ethereum security](/img/layer-2-ethereum-security.webp "layer 2 ethereum security")
+
+That’s where Layer 2s come in.
+
+Layer 2s (L2s) like Base, Optimism, Arbitrum, and others:
+
+* run their own faster, cheaper chain
+
+* process zillions of transactions
+
+* bundle them up
+
+* and pass them back to Ethereum for final security
+
+This is called “rollup technology,” and the idea is simple:
+
+**Let Ethereum be the guardian of the Ledger. Let Base handle the traffic.**
+
+You still use the EVM.
+
+You still use smart contracts.
+
+You still use ETH for gas.
+
+You use less of it.
+
+A lot of the same apps that are huge hits exist on Layer 2 networks as well. AND, Layer 2 networks develop their own ecosystems. A whole bunch of decentralized apps (dApps) live only on Base, or Arbitrum, or even Degen (a Base Layer 3 network).
+
+## **Why Ethereum Matters (and why geeks won’t shut up about it)**
+
+Ethereum solved a problem. Bitcoin is cool, but it doesn't support enough commands to call it a programmable blockchain. It wasn't "Turing complete." Ethereum lets anyone build apps that can do virtually anything. And it made the network open to everyone. You, me, the weird guy at the bus stop, we can all deploy smart contracts to the network.
+
+Ethereum's open, code-executing network unlocked a world of goodies.
+
+* decentralized finance (DeFi)
+
+* NFTs
+
+* Decentralized Autonomous Organizations (DAOs)
+
+* tokenized everything
+
+* L2 ecosystems (like Base)
+
+* Onchain identity
+
+* weird art and NFT games
+
+* questionable innovations
+
+* and an entire builder culture
+
+Whether it's fantastic or fantastically bad, you can build it and send it into the wilds of the EVM. Ethereum is the foundation. It's freedom. And it’s the code sandbox idea that other EVM chains copied.
+
+Understanding Ethereum means you understand the blueprint for:
+
+* Base
+
+* Polygon
+
+* Avalanche C-Chain
+
+* BNB Chain
+
+* Fantom
+
+* And pretty much every EVM chain these nerds dream up
+
+Ethereum didn’t just create a network. It created an ecosystem standard that powers some of the most used chains in all of cryptoland.
+
+## **Risks and Limitations (it'd like a jungle sometimes)**
+
+Ethereum is pretty awesome, but it isn't perfect (yet). Using the ecosystem comes with occasional tradeoffs:.
+
+### **Gas fees can spike**
+
+Sometimes transactions cost a few cents.
+Sometimes they make you shout, "@%*&!" Twice.
+
+### **Smart contracts can have bugs**
+
+Most smart contracts can't be changed after they're deployed. Bugs stay buggy. However, some contracts have upgrade permissions, which is a whole different can of rattlesnakes.
+
+### **Scams everywhere**
+
+Freedom to transact without intermediaries comes with the freedom to get scammed. And you can't complain to the manager. Never trust a contract you haven’t checked. Memecoins are often the worst offenders. Check the contract with code scanners like [Honeypot.is](https://honeypot.is/base) and [Tokensniffer](https://tokensniffer.com/). 
+
+### **Irreversible transactions**
+
+Sent ETH to the wrong address?
+
+Blockchain says, “Tough tacos. Put down the bong, next time.”
+
+### **Complex for beginners**
+
+Ethereum is wonderfully nerdy stuff. But that also makes it a bit tougher to use. The good news is that the good devs are working to make it easier to for all of us, abstracting all the nerdy code stuff and giving users a simpler interface. 
+
+Case in point: [Token Bundles on Lumpy Labs](https://lumpylabs.com/bundles). Buy up to five tokens in a few clicks. All that shizzle would take a few days to track down and buy without this cool tool.
+
+![lumpy labs bundles](/img/lumpy-labs-bundles.png "lumpy labs bundles")
+
+<div style="text-align:center;">
+  <a href="https://lumpylabs.com/bundles" class="btn" target="_blank">
+    Try Token Bundles
+  </a>
+</div>
+
+Despite the occasional blockchain gotchas, Ethereum has proven to be the most battle-tested programmable blockchain in the cryptoverse and there are tons of great projects in the ecosystem. Ethereum's also the base layer that keeps the L2 chains secure. 
+
+Vive la Ethereum!

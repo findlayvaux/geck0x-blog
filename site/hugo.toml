@@ -22,6 +22,8 @@ disableKinds = ["RSS", "taxonomy"]
   disableSpecial1stPost = false
   comments = false
   homeInfoParams = false
+  css = ["css/custom.css"]
+  customCSS = ["css/custom.css"]
   # (NO logo params needed now)
 
 [menu]

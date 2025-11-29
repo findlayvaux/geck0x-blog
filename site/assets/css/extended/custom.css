@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 32px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #00c069;
+  border: none;   /* KEEP THIS THE SAME */
+  border-radius: 10px;
+  margin: 2rem auto;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.btn:hover {
+  background-color: #00a85a;  /* darker green */
+  border: none;  /* SAME SIZE BORDER */
+  transform: translateY(-1px); /* optional tiny hover lift */
+}
+
