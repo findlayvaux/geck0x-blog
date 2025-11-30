@@ -74,7 +74,7 @@ Don't sweat the nerdy tech for now. Just know these are the main crews building 
 
 Layer 2s are the express lanes solving Ethereum's traffic jam, and they're the key to making crypto feel as slick and instant as we'd expect high-tech assets to be.
 
-The most important thing to remember is that L2s aren't competitors to Ethereum. Instead they're its, and Ethereum, as awesome as it is, really needs them as much as they need Ethereum. L2s handle the traffic better. Ethereum protects the transaction ledger.
+The most important thing to remember is that L2s aren't competitors to Ethereum. Instead, they're its greatest allies. And Ethereum, as awesome as it is, really needs them as much as they need Ethereum. L2s handle the traffic better. Ethereum protects the transaction ledger.
 
 The next time you're about to make a transaction, check if the dApp or protocol is available on your fav L2. Your wallet will literally thank you for it.
 
