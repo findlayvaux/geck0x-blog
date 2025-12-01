@@ -81,5 +81,3 @@ The most important thing to remember is that L2s aren't competitors to Ethereum.
 The next time you're about to make a transaction, check whether the dApp or protocol is available on your fav L2. Your wallet will thank you for it.
 
 Stay cool, stay decentralized, and may your gas fees always be low. Geck0x, out.
-
----
