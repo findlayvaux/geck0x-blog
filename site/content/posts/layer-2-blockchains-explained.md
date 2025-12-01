@@ -72,7 +72,7 @@ It's a system of trust with a safety net: if someone spots a fraudulent transact
 
 Don't sweat the nerdy tech for now. Just know these are the main crews building the blockchain highways of the future, and they're all working to make your crypto life faster and cheaper.
 
-## Geck0x's Final Take
+## Final Take on Layer 2 Networks
 
 Layer 2s are the express lanes solving Ethereum's traffic jam, and they're the key to making crypto feel as slick and instant as we'd expect high-tech assets to be.
 
