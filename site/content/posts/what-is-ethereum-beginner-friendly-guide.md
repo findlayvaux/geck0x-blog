@@ -51,7 +51,7 @@ Smart contracts take the permissionless concept and apply it to finance, games, 
 
 Base uses these EVM smart contracts, does the math and switch logic on the fly, and then passes the transactions to Ethereum in bulk. Base says to Ethereum, "Yo, big brother, this is my record of what happened. **Make sure nobody can change it.**"
 
-## **Yeah, but What Are Tokens, Anyway?**
+## Yeah, But What Are Tokens, Anyway?
 
 On Ethereum and Base, a token is just a number with rules wrapped around it. A smart contract keeps track of who owns how many and what those tokens are supposed to represent. That something could be money, voting power, game items, art, membership, or a completely unhinged memecoin with a crossed-eyed blue gorilla. The chain doesn't care. It just keeps score.
 
