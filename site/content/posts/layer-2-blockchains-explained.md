@@ -36,6 +36,8 @@ Alright, so we've got a cryptotastic traffic jam on the main highway. A bunch of
 
 L2s don't replace Ethereum. Instead, they work alongside Ethereum. Think of Layer 2 networks like Base and Arbitrum as express lanes that connect to the main highway. They handle some of the everyday traffic so the main road (Layer 1) can focus on the big picture: staying decentralized and making sure the bad guys can't change transactions on the chain.
 
+![ethereum l2 chains](/img/L2-ethereum-chains.webp "ethereum L2 chains")
+
 Here’s how the hand-off works, broken down into three simple steps:
 
 1. **Batching Transactions:** You and a zillion other people want to make transactions. Minting NFT cats, maybe. Instead of sending them one by one to the congested Ethereum mainnet, the L2 scoops them all up and bundles them into a single, compressed package.
@@ -46,7 +48,7 @@ The payoff is huge. You get the same rock-solid security as Ethereum, but with t
 
 ## Meet the Sidekicks: A Quick Guide to Popular L2s
 
-Not all L2 sidekicks work the same way, but they all use Ethereum for security. Each Layer 2 brings its own vibe and special powers. Let's meet the main players on the block.
+Not all L2 sidekicks work the same way, but they all use Ethereum for security and they all run the [Ethereum Virtual Machine (EVM)](https:/geck0x.com/posts/what-is-ethereum-beginner-friendly-guide/). Each Layer 2 brings its own vibe and special powers. Let's meet the main players on the block.
 
 ### Arbitrum & Optimism (The Optimistic Rollups)
 
@@ -74,9 +76,9 @@ Don't sweat the nerdy tech for now. Just know these are the main crews building 
 
 Layer 2s are the express lanes solving Ethereum's traffic jam, and they're the key to making crypto feel as slick and instant as we'd expect high-tech assets to be.
 
-The most important thing to remember is that L2s aren't competitors to Ethereum. Instead, they're its greatest allies. And Ethereum, as awesome as it is, really needs them as much as they need Ethereum. L2s handle the traffic better. Ethereum protects the transaction ledger.
+The most important thing to remember is that L2s aren't competitors to Ethereum. Instead, they're its greatest allies. And Ethereum, as awesome as it is, really needs them as much as they need Ethereum. L2s handle the traffic better. Ethereum protects the transaction ledger
 
-The next time you're about to make a transaction, check if the dApp or protocol is available on your fav L2. Your wallet will literally thank you for it.
+The next time you're about to make a transaction, check whether the dApp or protocol is available on your fav L2. Your wallet will thank you for it.
 
 Stay cool, stay decentralized, and may your gas fees always be low. Geck0x, out.
 
