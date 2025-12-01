@@ -8,7 +8,7 @@ draft = false
 
 Getting stuck in traffic sucks. Everyone's burning gas, but they're going nowhere fast. And everybody's grumpy about it. That’s Ethereum when things get a bit busy. It’s the smart contract king, the undisputed main highway for everything DeFi and the hottest NFT stuff. But sometimes the king's caravan makes its own traffic jam and then gets stuck in it.
 
-Now imagine a super-fast toll road right next to the main highway. Goes the same places. Does the same things. And it zips you past the gridlock for a fraction of the price. That’s what Layer 2s (L2s) are. They’re the happy-to-help sidekicks, the shortcut express lanes that make Ethereum's job easier. And not like your Uncle Findlay's "shortcuts" that always end up with shouting and trying to read a 20-year-old map in the dark. 
+Now imagine a super-fast toll road right next to the main highway. Goes the same places. Does the same things. And it zips you past the gridlock for a fraction of the price. That’s what Layer 2s (L2s) are. They’re the happy-to-help sidekicks, the shortcut express lanes that make Ethereum's job easier. And not like your Uncle Findlay's "shortcuts" that always end up with colorful swearing while trying to read a 20-year-old map in the dark. 
 
 Yo, fam! I’m Geck0x, and my mission is to slice through the crypto cacophony like a blockchain samurai. By the end of this post, you’ll know exactly what L2s are, why they’re the most important thing happening in crypto right now, and which ones you should be watching. No PhD in computer science required. Let’s hit it, superheroes.
 
