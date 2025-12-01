@@ -8,7 +8,7 @@ draft = false
 
 Yo, fam! By now you're well-versed in [how Ethereum works](/posts/what-is-ethereum-beginner-friendly-guide.md) and how Layer 2 blockchains like Base fit into the picture. You've almost earned your own pair of VR goggles. Understanding what's going on under the hood is half the battle. But how do you actually drive this crypto thing?
 
-This isn't like the time you fired up your parent's car and drove in around in circles on the cul de sac while they were at work. DeFi (decentralized finance) in crypto is way cooler than joyriding Mom's minivan. And you don't have to worry abou the neighbors telling your parents.
+This isn't like the time you fired up your parent's car and drove in around in circles on the cul de sac while they were at work. DeFi (decentralized finance) in crypto is way cooler than joyriding Mom's minivan. And you don't have to worry about the neighbors telling your parents.
 
 This is where we stop talking nerd theory and start doing awesome sh*t. Think of DeFi as the financial system's no-permission-needed alternative. It's the Wild West of money, where you can swap, lend, and borrow without ever asking some suit in a skyscraper for permission.
 
