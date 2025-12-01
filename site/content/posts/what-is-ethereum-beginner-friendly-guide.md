@@ -171,7 +171,7 @@ You still use ETH for gas.
 
 You use less of it.
 
-A lot of the same apps that are huge hits on Ethereum exist on [Layer 2 networks](https://geck0x.com/posts/layer-2-blockchains-explained/)as well. AND, Layer 2 networks develop their own ecosystems. A whole bunch of decentralized apps (dApps) live only on Base, or Arbitrum, or even Degen (a Layer 3 network under Base).
+A lot of the same apps that are huge hits on Ethereum exist on [Layer 2 networks](/posts/layer-2-blockchains-explained/) as well. AND, Layer 2 networks develop their own ecosystems. A whole bunch of decentralized apps (dApps) live only on Base, or Arbitrum, or even Degen (a Layer 3 network under Base).
 
 ## **Why Ethereum Matters (And Why Geeks Won’t Shut Up About It)**
 

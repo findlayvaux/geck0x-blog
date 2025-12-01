@@ -48,7 +48,7 @@ The payoff is huge. You get the same rock-solid security as Ethereum, but with t
 
 ## Meet the Sidekicks: A Quick Guide to Popular L2s
 
-Not all L2 sidekicks work the same way, but they all use Ethereum for security and they all run the [Ethereum Virtual Machine (EVM)](https:/geck0x.com/posts/what-is-ethereum-beginner-friendly-guide/). Each Layer 2 brings its own vibe and special powers. Let's meet the main players on the block.
+Not all L2 sidekicks work the same way, but they all use Ethereum for security and they all run the [Ethereum Virtual Machine (EVM)](/posts/what-is-ethereum-beginner-friendly-guide/). Each Layer 2 brings its own vibe and special powers. Let's meet the main players on the block.
 
 ### Arbitrum & Optimism (The Optimistic Rollups)
 
