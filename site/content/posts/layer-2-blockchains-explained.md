@@ -56,7 +56,7 @@ Not all L2 sidekicks work the same way, but they all use Ethereum for security a
 
 * **How They Roll:** They're "optimistic." They assume all transactions in a batch are valid and post them to Ethereum quickly. 
 
-It's a system of trust with a safety net: if someone spots a fraudulent transaction, they can challenge it within a time window. Think of it as an "innocent until proven guilty" system.
+It's a system of trust with a safety net: if someone spots a fraudulent transaction, they can [challenge it within a time window](https://ethereum.org/developers/docs/scaling/optimistic-rollups/). Think of it as an "innocent until proven guilty" system.
 
 ### Base (The Coinbase Connection)
 
