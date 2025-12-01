@@ -16,7 +16,7 @@ Yo, fam! I’m Geck0x, and my mission is to slice through the crypto cacophony l
 
 So, why does the king's highway get so jammed in the first place? As much as I'd like to blame goofy NFT cats, it really all comes down to Ethereum's design. Think of it as a single-lane, one-way road. Every single car (every Ethereum transaction) has to stop at the same toll plaza to be checked and approved by the entire network, and every tollbooth (node) has to agree. That takes time. Especially when half the chain is minting mangy cat NFTs and buying [cross-eyed gorilla](https://lumpyonbase.com) memecoins. The latter sounds kinda cool, just saying.
 
-Ethereum is what we call a "Layer 1" blockchain. Its job is to be the ultimate source of truth. Once something happens onchain, it stays happened, except that one DAO thing... but let's move on. Ancient history.
+1) Ethereum is what we call a "Layer 1" blockchain. Its job is to be the ultimate source of truth. Once something happens onchain, it stays happened. Well, except that one [DAO thing](https://www.coindesk.com/consensus-magazine/2023/05/09/coindesk-turns-10-how-the-dao-hack-changed-ethereum-and-crypto)... but let's move on. Ancient history.
 
 In crypto, there's an idea called the Blockchain Trilemma. In lay-lizard terms, it's the goal of achieving three things at once:
 
