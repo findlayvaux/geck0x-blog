@@ -12,7 +12,7 @@ This isn't like the time you fired up your parent's car and drove in around in c
 
 This is where we stop talking nerd theory and start doing awesome sh*t. Think of DeFi as the financial system's no-permission-needed alternative. It's the Wild West of money, where you can swap, lend, and borrow without ever asking some suit in a skyscraper for permission.
 
-Forget "digital pet rocks." We're about to turn those boring rocks into chiseled tools.
+Forget "digital pet rocks." We're about to turn those boring rocks into chiseled tools of blockchain finance.
 
 ## DeFi Demystified - It's Just Money, But With Code
 
