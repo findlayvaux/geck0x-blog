@@ -48,7 +48,7 @@ So, how do you actually do a DEX swap? It's easier than you think.
 
 ### Step 1: Get Your Wallet Sorted, First
 
-You can’t show up to the party without an ID. In the crypto world, your wallet address is your identity on the network. If you don’t have a wallet already, grab MetaMask or Rabby. They’re both pretty good. Next, secure your seed phrase offline. This secret phrase is the key to your crypto kingdom, so guard it well.
+You can’t show up to the party without an ID. In the crypto world, your wallet address is your identity on the network. If you don’t have a wallet already, grab [MetaMask](https://metamask.io/) or [Rabby](https://rabby.io/). They’re both pretty good. Next, secure your seed phrase offline. This secret phrase is the key to your crypto kingdom, so guard it well.
 
 ### Step 2: Get Some ETH onto Base
 
@@ -56,7 +56,7 @@ If you have an account with Coinbase (or most other platforms) you can buy ETH w
 
 ### Step 3: Pick a DEX and Connect 
 
-Now for the fun part. You need to find a DEX that lives on Base. The big players are Uniswap and Aerodrome. For your first time, just pick one. Go to their website and look for a "Connect Wallet" button. Click it, approve the connection in your wallet, and you're in. The DEX can now see your funds on Base.
+Now for the fun part. You need to find a DEX that lives on Base. The big players are [Uniswap](https://app.uniswap.org/) and Aerodrome. For your first time, lets choose Uniswap. Go to the Uniswap website and look for a "Connect Wallet" button. Click it, approve the connection in your wallet, and you're in. The DEX can now see your funds on Base.
 
 ### Step 4: Make the Swap
 
@@ -83,11 +83,11 @@ In DeFi, we cut out the middleman. You are the bank.
 
 Here's the no-BS breakdown: You lend your crypto to a smart contract-run lending pool. Other people come along and borrow from that pool. They pay interest, and that interest gets paid directly to you, proportinal to your share of the pool. And your bank is open 24/7, so you can lend to anyone, anywhere in the world.
 
-The big name in the game that you'll find on Base is Aave. They've been around scine the OG DeFi days and have survived more market crashes than a cockroach Aave's a good place to start. The protocol even has a user-funded insurance pool, funded by staking. We'll get to staking in a bit.
+The big name in the game that you'll find on Base is [Aave](https://aave.com/). They've been around since the OG DeFi days and have survived more market crashes than a cockroach Aave's a good place to start. The protocol even has a [user-funded insurance pool](https://aave.com/docs/aave-v3/umbrella), funded by staking. We'll get to staking in a bit.
 
 ### So how does crypto lending actually work?
 
-1. **Go to Aave on Base:** Find the official Aave app and make sure you're connected to the Base network in your wallet.
+1. **Go to Aave on Base:** Visit the official Aave app and make sure you're connected to the Base network in your crypto wallet.
 2. **Supply Your Crypto:** You'll see a big "Markets" dashboard. Find the asset you want to lend. Let's say ETH or a stablecoin like USDC. Click "Supply" and enter the amount you want to deposit.
 3. **Get Your 'aTokens':** Once you supply your crypto, the protocol gives you back a special token in return. If you supply USDC, you get aUSDC. If you supply ETH, you get aETH. These are called "aTokens." These are basically a receipt. This receipt is special, though. It automatically earns interest in your wallet. Just by holding it, the token's value creeps up over time as you earn more interest. Cool.
 
@@ -154,7 +154,7 @@ This is the simplest form. You take one type of token. Let's say a new protocol'
 
 ### Type 2: Liquidity Providing (LPing) 
 
-This is the big one. You're not just locking one token; you're providing liquidity to a trading pair on a DEX.
+This is the big one. You're not just locking one token; you're providing liquidity to a trading pair on a DEX. In most cases, providing liquidity doesn't really fall under the staking umbrella, but it's worth mention here. You're locking tokens in a contract to earn a yield.
 
 ![Base liquidity pool](/img/base-liquidity-pool.webp "Base liquidity pool")
 
@@ -200,8 +200,8 @@ Don't ape into something just because a tweet from an anon account with a pixwla
 
 ### Rule #4: Start Small
 
-For your first DefI foray using a new-to-you protocol, use a trivial amount of money. An amount you’d be okay with losing if you accidentally fat-fingered the something in the UI. Transactions are cheap on Base. Test, test, test. 
+1) For your first DefI foray using a new-to-you protocol, use a trivial amount of money. An amount you’d be okay with losing if you accidentally fat-fingered the something in the UI. Transactions are cheap on Base and other [Layer 2 chains](/posts/layer-2-blockchains-explained/). Test, test, test. 
 
 Get a feel for the UI, the gas fees, and the process. Once you’ve successfully done a few small transactions and feel comfortable, then you can think about using larger amounts. Crypto pros aren’t born; they’re forged by making small, survivable mistakes.
 
-A few common-sense rules can help save your bags from disaster. Be smart out there, fam, and be careful.
+A few common-sense rules can help save your bags from disaster. Be smart out there, fam, Make some money, but be careful about it.
