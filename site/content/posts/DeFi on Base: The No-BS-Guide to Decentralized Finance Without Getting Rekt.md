@@ -24,7 +24,7 @@ If you start googling "What is DeFi?", you're gonna get hit with a firehose of c
 
 Okay, that last one's not too bad, but WTF? It's enough to make you want to log off and go back to watching cat videos, even if you think cats are kinda sketchy.
 
-Here's the no-BS definition: DeFi is just a bunch of smart contracts that do the jobs banks and brokers used to do. The smart contracts handle the math and the handoffs. No banker needed.
+Here's the no-BS definition: DeFi is just a bunch of smart contracts that do the jobs banks and brokers do in the analog world. The smart contracts handle the math and the handoffs. No banker needed.
 
 That's it. It's a bunch of software switches for money. Instead of a teller, you have code. Instead of a loan officer, you have an algorithm. It's all automated, transparent, and runs 24/7 without some dude in a suit peering over his glasses at your wrinkled Def Leppard t-shirt.
 
