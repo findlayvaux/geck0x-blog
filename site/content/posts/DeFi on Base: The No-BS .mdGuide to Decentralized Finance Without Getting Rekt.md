@@ -154,7 +154,7 @@ This is the simplest form. You take one type of token. Let's say a new protocol'
 
 ### Type 2: Liquidity Providing (LPing) 
 
-This is the big one. You're not just locking one token; you're providing liquidity to a trading pair on a DEX. In most cases, providong liquidity doesn't really fall under the staking umbrella, but it's worth mention here. You're locking tokens in a contract to earn a yield.
+This is the big one. You're not just locking one token; you're providing liquidity to a trading pair on a DEX. In most cases, providing liquidity doesn't really fall under the staking umbrella, but it's worth mention here. You're locking tokens in a contract to earn a yield.
 
 ![Base liquidity pool](/img/base-liquidity-pool.webp "Base liquidity pool")
 
