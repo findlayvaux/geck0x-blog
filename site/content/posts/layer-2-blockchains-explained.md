@@ -1,7 +1,7 @@
 +++
 title = "🦎 Layer 2 Blockchains: Ethereum’s Sidekicks Explained"
 description = "Learn why Ethereum needs a little help from its friends (and how they save you a ton of money)."
-date = "2025-11-23T01:16:47-0500"
+date = "2025-11-30"
 draft = false
 +++
 ![ethereum blockchain highway](/img/ethereum-highway.webp "ethereum blockchain highway")
