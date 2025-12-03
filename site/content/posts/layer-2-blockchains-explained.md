@@ -32,7 +32,7 @@ Scalability remains a weak point on Ethereum, but that's where Layer 2 chains co
 
 ## The Solution: Enter the Layer 2 Sidekicks
 
-Alright, so we've got a cryptotastic traffic jam on the main highway. A bunch of NFT cats and some rainbow unicorn dApp are clogging up the works. The solution isn't to bulldoze the whole thing, cats, unicorns and all, and then just start over. Cats and unicorns are people too. The real solution is to build smarter, faster roads right next to it. That’s exactly what Layer 2s are.
+Alright, so we've got a cryptotastic traffic jam on the main highway. A bunch of NFT cats and some new unicorn dApp are clogging up the works. The solution isn't to bulldoze the whole thing, cats, unicorns and all, and then just start over. Cats and unicorns are people too. The real solution is to build smarter, faster roads right next to it. That’s exactly what Layer 2s are.
 
 L2s don't replace Ethereum. Instead, they work alongside Ethereum. Think of Layer 2 networks like Base and Arbitrum as express lanes that connect to the main highway. They handle some of the everyday traffic so the main road (Layer 1) can focus on the big picture: staying decentralized and making sure the bad guys can't change transactions on the chain.
 
