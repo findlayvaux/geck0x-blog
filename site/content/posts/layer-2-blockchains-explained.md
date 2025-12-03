@@ -4,11 +4,11 @@ description = "Learn why Ethereum needs a little help from its friends (and how 
 date = "2025-11-30"
 draft = false
 +++
-![ethereum blockchain highway](/img/ethereum-highway.webp "ethereum blockchain highway")
+![ethereum blockchain highway](/img/ethereum-traffic-jam.jpg "ethereum blockchain highway")
 
 Getting stuck in traffic sucks. Everyone's burning gas, but they're going nowhere fast. And everybody's grumpy about it. That’s Ethereum when things get a bit busy. It’s the smart contract king, the undisputed main highway for everything DeFi and the hottest NFT stuff. But sometimes the king's caravan makes its own traffic jam and then gets stuck in it.
 
-Now imagine a super-fast toll road right next to the main highway. Goes the same places. Does the same things. And it zips you past the gridlock for a fraction of the price. That’s what Layer 2s (L2s) are. They’re the happy-to-help sidekicks, the shortcut express lanes that make Ethereum's job easier. And not like your Uncle Findlay's "shortcuts" that always end up with colorful swearing while trying to read a 20-year-old map in the dark. 
+Now imagine a super-fast toll road right next to the main highway. Goes the same places. Does the same things. And it zips you past the gridlock for a fraction of the price. That’s what Layer 2s (L2s) are. They’re the happy-to-help sidekicks, the shortcut express lanes that make Ethereum's job easier. And not like your Uncle Findlay's "shortcuts" that always end with swearing while trying to read a 20-year-old map in the dark. 
 
 Yo, fam! I’m Geck0x, and my mission is to slice through the crypto cacophony like a blockchain samurai. By the end of this post, you’ll know exactly what L2s are, why they’re the most important thing happening in crypto right now, and which ones you should be watching. No PhD in computer science required. Let’s hit it, superheroes.
 
@@ -16,7 +16,7 @@ Yo, fam! I’m Geck0x, and my mission is to slice through the crypto cacophony l
 
 So, why does the king's highway get so jammed in the first place? As much as I'd like to blame goofy NFT cats, it really all comes down to Ethereum's design. Think of it as a single-lane, one-way road. Every single car (every Ethereum transaction) has to stop at the same toll plaza to be checked and approved by the entire network, and every tollbooth (node) has to agree. That takes time. Especially when half the chain is minting mangy cat NFTs and buying [cross-eyed gorilla](https://lumpyonbase.com) memecoins. The latter sounds kinda cool, just saying.
 
-1) Ethereum is what we call a "Layer 1" blockchain. Its job is to be the ultimate source of truth. Once something happens onchain, it stays happened. Well, except that one [DAO thing](https://www.coindesk.com/consensus-magazine/2023/05/09/coindesk-turns-10-how-the-dao-hack-changed-ethereum-and-crypto)... but let's move on. Ancient history.
+1) Ethereum is what we call a "Layer 1" blockchain. Its job is to be the ultimate source of truth. Once something happens onchain, it stays happened. Well, except that one [DAO thing](https://www.coindesk.com/consensus-magazine/2023/05/09/coindesk-turns-10-how-the-dao-hack-changed-ethereum-and-crypto)... but let's move on. Ancient history, right?
 
 In crypto, there's an idea called the Blockchain Trilemma. In lay-lizard terms, it's the goal of achieving three things at once:
 
@@ -32,7 +32,7 @@ Scalability remains a weak point on Ethereum, but that's where Layer 2 chains co
 
 ## The Solution: Enter the Layer 2 Sidekicks
 
-Alright, so we've got a cryptotastic traffic jam on the main highway. A bunch of NFT cats are clogging up the works. The solution isn't to bulldoze the whole thing, cats and all, and then just start over. Cats are people too. Sorta. The real solution is to build smarter, faster roads right next to it. That’s exactly what Layer 2s are.
+Alright, so we've got a cryptotastic traffic jam on the main highway. A bunch of NFT cats and some rainbow unicorn dApp are clogging up the works. The solution isn't to bulldoze the whole thing, cats, unicorns and all, and then just start over. Cats and unicorns are people too. The real solution is to build smarter, faster roads right next to it. That’s exactly what Layer 2s are.
 
 L2s don't replace Ethereum. Instead, they work alongside Ethereum. Think of Layer 2 networks like Base and Arbitrum as express lanes that connect to the main highway. They handle some of the everyday traffic so the main road (Layer 1) can focus on the big picture: staying decentralized and making sure the bad guys can't change transactions on the chain.
 

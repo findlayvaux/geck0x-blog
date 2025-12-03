@@ -4,7 +4,7 @@ description = "Learn what DeFi is and why crypto isn't just a bunch of digital p
 date = "2025-12-01"
 draft = false
 +++
-![DeFi on Base](/img/defi-on-base-chain.webp "DeFi on Base")
+![DeFi on Base](/img/defi-on-base.jpg "DeFi on Base")
 
 Yo, fam! By now you're well-versed in [how Ethereum works](/posts/what-is-ethereum-beginner-friendly-guide.md) and how Layer 2 blockchains like Base fit into the picture. You've almost earned your own pair of VR goggles. Understanding what's going on under the hood is half the battle. But how do you actually drive this crypto thing?
 
