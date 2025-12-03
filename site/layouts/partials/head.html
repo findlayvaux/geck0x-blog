@@ -11,7 +11,28 @@
 <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
 
 {{- /* Meta */}}
-{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
+
+{{- /* --- CUSTOM TWITTER CARD FIX START --- */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}">
+
+{{- /* Logic to find the image and force Absolute URL */}}
+{{- $image := "" -}}
+{{- if .Params.images -}}
+  {{- $image = index .Params.images 0 -}}
+{{- else if .Params.image -}}
+  {{- $image = .Params.image -}}
+{{- else if .Params.cover.image -}}
+  {{- $image = .Params.cover.image -}}
+{{- end -}}
+
+{{- if $image -}}
+<meta name="twitter:image" content="{{ $image | absURL }}">
+{{- end -}}
+{{- /* --- CUSTOM TWITTER CARD FIX END --- */}}
+
 {{- if .IsHome }}
 {{ with site.Params.keywords -}}<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}
 {{- else }}
@@ -201,6 +222,6 @@
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
 {{- partial "google_analytics.html" . }}
 {{- partial "templates/opengraph.html" . }}
-{{- partial "templates/twitter_cards.html" . }}
+{{- /* Removed conflicting twitter_cards partial here */}}
 {{- partial "templates/schema_json.html" . }}
 {{- end -}}

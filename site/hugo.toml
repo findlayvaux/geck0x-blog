@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://www.geck0x.com/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Geck0x"
@@ -10,7 +10,7 @@ disableKinds = ["RSS", "taxonomy"]
   images = ["img/geck0x-og.png"]
   env = "production"
   title = "Geck0x Crypto Blog"
-  description = "A Hugo site using PaperMod"
+  description = "A Crypto Safety Blog for Non-Cyborgs"
   author = "Geck0x"
   defaultTheme = "auto"
   ShowReadingTime = true
