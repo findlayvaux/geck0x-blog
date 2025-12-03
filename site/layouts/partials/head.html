@@ -21,11 +21,17 @@
 {{- /* Logic to find the image and force Absolute URL */}}
 {{- $image := "" -}}
 {{- if .Params.images -}}
+  {{- /* Case 1: Post has "images" array */}}
   {{- $image = index .Params.images 0 -}}
 {{- else if .Params.image -}}
+  {{- /* Case 2: Post has "image" string */}}
   {{- $image = .Params.image -}}
 {{- else if .Params.cover.image -}}
+  {{- /* Case 3: Post has "cover.image" (PaperMod specific) */}}
   {{- $image = .Params.cover.image -}}
+{{- else if site.Params.images -}}
+  {{- /* Case 4: Fallback to SITE DEFAULT defined in hugo.toml (The Missing Piece) */}}
+  {{- $image = index site.Params.images 0 -}}
 {{- end -}}
 
 {{- if $image -}}
