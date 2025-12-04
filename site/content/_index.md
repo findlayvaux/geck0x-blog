@@ -7,7 +7,7 @@ description = "Geck0x Crypto Safety Blog. Learn how to use crypto safely."
 
 Yo, fam! Geck0x here — the lizard from Lumpy Island who scans the code for scam critters so you don’t get rugged.
 
-<video width="100%" autoplay muted playsinline controls preload="auto">
+<video width="100%" autoplay muted playsinline preload="auto">
   <source src="/media/geck0x-coding-silent.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
