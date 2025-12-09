@@ -1,9 +1,13 @@
 +++
 title = "🦎 What Is Ethereum? A Beginner-Friendly Guide to the EVM"
 description = "Learn how Ethereum works. No pointy wizard hat needed."
-image = "/img/ethereum-header.jpg"
-date = "2025-11-23T01:16:47-0500"
+date = 2025-11-23T01:16:47-05:00
 draft = false
+
+[cover]
+image = "img/ethereum-header.png"
+alt = "ethereum header"
+relative = false
 +++
 ![ethereum header](/img/ethereum-header.png "ethereum header")
 

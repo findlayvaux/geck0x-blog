@@ -4,6 +4,7 @@ languageLang = "en"
 title = "Geck0x"
 theme = "PaperMod"
 
+
 # Kept your existing disables. 
 # Note: Search works fine without RSS or Taxonomy.
 disableKinds = ["RSS", "taxonomy"]
@@ -13,6 +14,9 @@ disableKinds = ["RSS", "taxonomy"]
 [outputs]
   home = ["HTML", "JSON"]
 # --------------------------------
+
+[pagination]
+  pagerSize = 10
 
 [params]
   images = ["img/geck0x-og.png"]

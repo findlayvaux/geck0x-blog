@@ -5,12 +5,14 @@ description = "Geck0x Crypto Safety Blog. Learn how to use crypto safely."
 
 # Geck0x Crypto Safety Blog
 
-Yo, fam! Geck0x here — the lizard from Lumpy Island who scans the code for scam critters so you don’t get rugged.
+<div class="video-float">
+  <video autoplay muted playsinline preload="auto">
+    <source src="/media/geck0x-coding-silent.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-<video width="100%" autoplay muted playsinline preload="auto">
-  <source src="/media/geck0x-coding-silent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+Yo, fam! Geck0x here — the lizard from Lumpy Island who scans the code for scam critters so you don’t get rugged.
 
 Crypto’s like that old Grandmaster Flash jam I’ve got playing in my Beats right now: 
 

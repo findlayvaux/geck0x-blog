@@ -3,6 +3,11 @@ title = "🦎 Is Crypto Really Decentralized? Who Has the Kill Switch for Your C
 description = "Learn the real story on crypto decentalization, or lack thereof."
 date = "2025-12-08"
 draft = false
+
+[cover]
+image = "img/blockchain-decentralization-loading.png"
+alt = "ethereum header"
+relative = false
 +++
 ![blockchain decentralization](/img/blockchain-decentralization-loading.png "blockchain decentralization")
 

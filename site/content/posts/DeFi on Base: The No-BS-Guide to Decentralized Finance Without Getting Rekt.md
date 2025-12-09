@@ -3,6 +3,11 @@ title = "🦎 DeFi on Base: The No-BS Guide to Decentralized Finance Without Get
 description = "Learn what DeFi is and why crypto isn't just a bunch of digital pet rocks."
 date = "2025-12-01"
 draft = false
+
+[cover]
+image = "img/defi-on-base.jpg"
+alt = "ethereum header"
+relative = false
 +++
 ![DeFi on Base](/img/defi-on-base.jpg "DeFi on Base")
 

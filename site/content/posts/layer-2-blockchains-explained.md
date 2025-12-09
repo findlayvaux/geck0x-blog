@@ -3,6 +3,11 @@ title = "🦎 Layer 2 Blockchains: Ethereum’s Sidekicks Explained"
 description = "Learn why Ethereum needs a little help from its friends (and how they save you a ton of money)."
 date = "2025-11-30"
 draft = false
+
+[cover]
+image = "img/ethereum-traffic-jam.jpg"
+alt = "ethereum header"
+relative = false
 +++
 ![ethereum blockchain highway](/img/ethereum-traffic-jam.jpg "ethereum blockchain highway")
 
