@@ -4,7 +4,15 @@ languageLang = "en"
 title = "Geck0x"
 theme = "PaperMod"
 
+# Kept your existing disables. 
+# Note: Search works fine without RSS or Taxonomy.
 disableKinds = ["RSS", "taxonomy"]
+
+# --- NEW: REQUIRED FOR SEARCH ---
+# This tells Hugo to generate the index.json file used by Fuse.js
+[outputs]
+  home = ["HTML", "JSON"]
+# --------------------------------
 
 [params]
   images = ["img/geck0x-og.png"]
@@ -44,8 +52,15 @@ disableKinds = ["RSS", "taxonomy"]
     url = "/about/"
     weight = 3
 
+  # --- NEW: SEARCH MENU ITEM ---
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 4
+  # -----------------------------
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
