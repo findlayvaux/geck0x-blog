@@ -70,7 +70,7 @@ These chains are built on top of L2s to push transaction fees down to a fraction
 
 Let's bang on the trash cans to check for cats.
 
-You're taking the **Sequencer Risk** of the L3, plus the **Sequencer Risk** of the L2 it's built on, plus the **Data Risk** of a handful of trusted validators. It's a risk sandwich. Most L3s use a "Data Availability Committee", literally a group of 5-10 "trusted" people, to store transaction data. If this small clique goes rogue, loses the data, or gets subpoenaed, your funds can simply vanish into the Ether, or Degen, or whatever they use for a gas token. Use these for degenerate memecoin gambling or gaming, not for your life savings. Capiche?
+You're taking the **Sequencer Risk** of the L3, plus the **Sequencer Risk** of the L2 it's built on, plus the **Data Risk** of a handful of trusted validators. It's a risk sandwich. Most L3s use a "Data Availability Committee", literally a group of 5-10 "trusted" people, to store transaction data. If this small clique goes rogue, loses the data, gets subpoenaed, or goes on a three-week peyote bender, your funds can simply vanish into the Ether, or Degen, or whatever they use for a gas token. Use these L3s for degenerate memecoin gambling or gaming, not for your life savings. Capiche?
 
 ### **The Roadmap: How We Get Out of This Fine Mess**
 
