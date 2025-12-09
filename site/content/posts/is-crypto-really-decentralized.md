@@ -95,7 +95,7 @@ There is no "perfect" blockchain. Diversification isn't just about buying differ
 |**If you use...**|**You are trusting...**|**Best for...**|
 |---|---|---|
 |**Bitcoin**|**Physics** (Energy Costs)|Long-term "Don't Tread On Me" Money|
-|**Ethereum**|**The Crowd** (Stakeholders)|DeFi & Unstoppable Apps|
+|**Ethereum**|**The Crowd** (Stakers)|DeFi & Unstoppable Apps|
 |**Solana**|**Data Centers** (Hardware)|High-Frequency Trading & Memecoins|
 |**Base (L2)**|**Corporations** (Coinbase)|Pocket Money, DeFi, and Memecoins|
 
