@@ -44,7 +44,7 @@ These are the big dogs. They don't need another blockchain to survive. They answ
     
 - **Who You Trust:** **The "Mob" (Stakers).**
     
-- **The Reality:** Ethereum's genius is that you can run a node on a decent laptop. It doesn't rely on Amazon, and you don't need a bazillion-dollar rig. This makes it physically impossible for any single government or company to "turn off" Ethereum. They'd have to kick down doors all over the world simultaneously. But its risk is also economic. Proof-of-Stake means money equals power. A terrifying amount of ETH is staked through just a few providers like **Lido** and **Coinbase**. These two alone represent nearly 35% of the staked ETH securing the network. You're trusting these massive, regulated companies to tell the Feds to take a hike when they come knocking with a censorship order. It's a single point of political failure.
+- **The Reality:** Ethereum's genius is that you can run a node on a decent laptop. It doesn't rely on Amazon, and you don't need a bazillion-dollar rig. This makes it physically impossible for any single government or company to "turn off" Ethereum. They'd have to kick down doors all over the world simultaneously. But its risk is also economic. Proof-of-Stake means money equals power. A terrifying amount of ETH is staked through just a few providers like **Lido** and **Coinbase**. These two alone represent nearly 45% of the staked ETH securing the network. You're trusting these massive, regulated companies to tell the Feds to take a hike when they come knocking with a censorship order. It's a single point of political failure.
 
 ### **Solana: The High-Speed Ferrari**
 
