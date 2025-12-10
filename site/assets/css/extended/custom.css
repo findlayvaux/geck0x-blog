@@ -190,3 +190,12 @@
     padding-bottom: 20px; /* Adds space at the bottom of the box */
     padding-top: 20px;    /* Optional: Keeps it symmetrical */
 }
+
+/* Remove background and shadow from the Share Buttons container */
+.share-buttons {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important; /* Removes the extra space that was holding the background */
+    margin-top: 30px; /* Ensures it doesn't hug the navigation box above it too tightly */
+}
