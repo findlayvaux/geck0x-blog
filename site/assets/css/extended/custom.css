@@ -184,3 +184,9 @@
         grid-template-columns: 1fr; /* Force single column on phones */
     }
 }
+
+/* Increase padding inside the Prev/Next navigation buttons */
+.paginav a {
+    padding-bottom: 20px; /* Adds space at the bottom of the box */
+    padding-top: 20px;    /* Optional: Keeps it symmetrical */
+}
