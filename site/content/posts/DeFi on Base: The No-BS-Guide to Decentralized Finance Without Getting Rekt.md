@@ -66,7 +66,7 @@ Now for the fun part. You need to find a DEX that lives on Base. The big players
 
 This part feels just like using a regular exchange.
 
-You'll see two boxes: "Sell" and "Buy." Let's swap some ETH for somehting else.
+You'll see two boxes: "Sell" and "Buy." Let's swap some ETH for something else.
 
 * Select ETH in the "Sell" box.
 * In the "Buy" box, you can paste the contract address of the token you want to buy, or search for it if it's a popular one. Be careful, fam. There are some impostors out there and tokens can share the same ticker.
