@@ -68,6 +68,50 @@
   transition: background-color 0.15s ease, box-shadow 0.15s ease;
 }
 
+/* Shrink the Single Post Title */
+.post-title {
+    font-size: 30px !important; /* Change this number to size it up/down */
+    line-height: 1.3 !important;
+    margin-bottom: 10px; /* Reduces gap between title and date */
+}
+
+/* 1. Resize H2 (Subheaders inside the article) */
+.post-content h2 {
+    font-size: 24px !important; /* Make this smaller than your H1 (which is 28-30px) */
+    font-weight: 700;
+    margin-top: 30px; /* Adds breathing room above new sections */
+}
+
+/* 2. Resize H3 (Sub-subheaders) */
+.post-content h3 {
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+/* 3. Resize H4 (Deep headers) */
+.post-content h4 {
+    font-size: 18px !important;
+}
+
+/* Optional: Make it smaller on mobile phones */
+@media screen and (max-width: 768px) {
+    .post-title {
+        font-size: 24px !important;
+    }
+}
+
+/* 2. Shrink Grid/List Titles (The tiles on homepage/posts) */
+.entry-header h2 {
+    font-size: 20px; /* Default is usually 24px */
+}
+
+/* Optional: Adjust for Mobile */
+@media screen and (max-width: 768px) {
+    .page-header h1 {
+        font-size: 24px;
+    }
+}
+
 .btn:hover {
   background-color: #1dd681; /* A lighter, brighter green on hover */
 }
@@ -120,4 +164,23 @@
 }
 .post-entry {
     position: relative;
+}
+
+/* --- MOBILE TWEAKS --- */
+@media screen and (max-width: 768px) {
+    /* Drop H2 down so it's smaller than the 24px H1 */
+    .post-content h2 {
+        font-size: 20px !important; 
+        margin-top: 20px; /* Less gap on mobile */
+    }
+
+    /* Drop H3 slightly */
+    .post-content h3 {
+        font-size: 18px !important;
+    }
+    
+    /* Ensure the grid doesn't overflow on tiny screens */
+    .post-grid {
+        grid-template-columns: 1fr; /* Force single column on phones */
+    }
 }

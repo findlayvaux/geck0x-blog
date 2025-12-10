@@ -6,7 +6,7 @@ draft = false
 
 [cover]
 image = "img/defi-on-base.jpg"
-alt = "defi on base - decentralized fi"
+alt = "defi on base - decentralized finance"
 relative = false
 +++
 
