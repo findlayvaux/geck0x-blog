@@ -276,9 +276,9 @@
 
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="http://localhost:1313/img/defi-on-base.jpg" alt="defi on base - decentralized finance">
-        
+        <img loading="lazy" src="http://localhost:1313/posts/defi-on-base-the-no-bs-guide-to-decentralized-finance-without-getting-rekt/img/defi-on-base.jpg" alt="defi on base - decentralized finance">
 </figure>
+
   <div class="post-content"><p>Yo, fam! By now you&rsquo;re well-versed in <a href="/posts/what-is-ethereum-beginner-friendly-guide.md">how Ethereum works</a> and how Layer 2 blockchains like Base fit into the picture. You&rsquo;ve almost earned your own pair of VR goggles. Understanding what&rsquo;s going on under the hood is half the battle. But how do you actually drive this crypto thing?</p>
 <p>This isn&rsquo;t like the time you fired up your parent&rsquo;s car and drove in around in circles on the cul de sac while they were at work. DeFi (decentralized finance) in crypto is way cooler than joyriding Mom&rsquo;s minivan. And you don&rsquo;t have to worry about the neighbors telling your parents.</p>
 <p>This is where we stop talking nerd theory and start doing awesome sh*t. Think of DeFi as the financial system&rsquo;s no-permission-needed alternative. It&rsquo;s the Wild West of money, where you can swap, lend, and borrow without ever asking some suit in a skyscraper for permission.</p>
@@ -302,7 +302,11 @@
 <p>And why are we doing this on Base? Because while Ethereum is the king, its gas fees can still get spendy for small transactions. Using Base feels like buying a $0.01 hoodie because someone marked the price wrong. It&rsquo;s the perfect training grounds to get your hands dirty without losing your Def Leppard shirt on fees.</p>
 <h2 id="your-first-swap---how-to-trade-shtcoins-like-a-pro">Your First Swap - How to Trade Sh*tcoins Like a Pro<a hidden class="anchor" aria-hidden="true" href="#your-first-swap---how-to-trade-shtcoins-like-a-pro">#</a></h2>
 <p>Alright, time for the main event. Your first real DeFi action. We&rsquo;re about to do  a DEX swap, like a proper degen.</p>
-<p><img alt="DEX swap on Base" loading="lazy" src="/img/base-dex-swap.webp" title="DEX swap on Base"></p>
+<p><img src="/img/base-dex-swap.webp" 
+     alt="DEX swap on Base" 
+      title="DEX swap on Base" 
+     loading="lazy">
+</p>
 <p>A DEX, or Decentralized Exchange, is exactly what it sounds like. It&rsquo;s an exchange with no central authority. It’s just a smart contract sitting on the blockchain, waiting for you to come trade. Think of it like a public pool of tokens (a liquidity pool). When you want to swap something you have for something else, you tell the contract how much and which tokens. For example, you can tell the contract how much ETH you want to spend and the smart contract gives you back the equivalent amount of whatever token you select. You&rsquo;&rsquo; just pay a small fee for everyone else who’s chipping in to keep the pool full.</p>
 <p>So, how do you actually do a DEX swap? It&rsquo;s easier than you think.</p>
 <h3 id="step-1-get-your-wallet-sorted-first">Step 1: Get Your Wallet Sorted, First<a hidden class="anchor" aria-hidden="true" href="#step-1-get-your-wallet-sorted-first">#</a></h3>
@@ -325,7 +329,11 @@
 <h2 id="becoming-the-bank---lending-your-crypto-for-passive-gains">Becoming the Bank - Lending Your Crypto for Passive Gains<a hidden class="anchor" aria-hidden="true" href="#becoming-the-bank---lending-your-crypto-for-passive-gains">#</a></h2>
 <p>Alright, so you&rsquo;ve successfully swapped some tokens without a stupid broker. Now, it&rsquo;s time to put your banker hat on. Looks good on ya!</p>
 <p>In DeFi, we cut out the middleman. You are the bank.</p>
-<p><img alt="DeFi lending on Base" loading="lazy" src="/img/defi-lending-base.webp" title="DeFi lending on Base"></p>
+<p><img src="/img/defi-lending-base.webp" 
+     alt="DeFi lending on Base" 
+      title="DeFi lending on Base" 
+     loading="lazy">
+</p>
 <p>Here&rsquo;s the no-BS breakdown: You lend your crypto to a smart contract-run lending pool. Other people come along and borrow from that pool. They pay interest, and that interest gets paid directly to you, proportinal to your share of the pool. And your bank is open 24/7, so you can lend to anyone, anywhere in the world.</p>
 <p>The big name in the game that you&rsquo;ll find on Base is <a href="https://aave.com/">Aave</a>. They&rsquo;ve been around since the OG DeFi days and have survived more market crashes than a cockroach Aave&rsquo;s a good place to start. The protocol even has a <a href="https://aave.com/docs/aave-v3/umbrella">user-funded insurance pool</a>, funded by staking. We&rsquo;ll get to staking in a bit.</p>
 <h3 id="so-how-does-crypto-lending-actually-work">So how does crypto lending actually work?<a hidden class="anchor" aria-hidden="true" href="#so-how-does-crypto-lending-actually-work">#</a></h3>
@@ -356,7 +364,11 @@
 </ol>
 <h3 id="the-crypto-stompin-elephant-in-the-room-liquidation">The Crypto Stompin&rsquo; Elephant in the Room: Liquidation<a hidden class="anchor" aria-hidden="true" href="#the-crypto-stompin-elephant-in-the-room-liquidation">#</a></h3>
 <p>This is important, because this is how people get rekt. Remember your collateral? Its value can go down. If you borrowed $2,400 against your 1 ETH, and the price of ETH crashes, you&rsquo;re in trouble.</p>
-<p><img alt="DeFi borrowig liquidation risk" loading="lazy" src="/img/defi-borrowing-liquidation-risk.webp" title="DeFi borrowig liquidation risk"></p>
+<p><img src="/img/defi-borrowing-liquidation-risk.webp" 
+     alt="DeFi borrowig liquidation risk" 
+      title="DeFi borrowig liquidation risk" 
+     loading="lazy">
+</p>
 <p>There&rsquo;s a liquidation threshold. Let&rsquo;s say it&rsquo;s 85%. This means if your debt (the $2,400 USDC you borrowed) becomes 85% of the value of your collateral (your now-crashed ETH), the system automatically sells your ETH to pay back your loan.</p>
 <p>Boooo! You lose your collateral. You&rsquo;re left with the USDC you borrowed, but your ETH is gone like your ex who took all your your Led Zeppelin vinyl albums when they left. This is why you always borrow conservatively and wateh the market. Remember, a small loan is a safer loan.</p>
 <h2 id="staking-for-non-nerds---earning-yield-by-locking-things-up">Staking for Non-Nerds - Earning Yield by Locking Things Up<a hidden class="anchor" aria-hidden="true" href="#staking-for-non-nerds---earning-yield-by-locking-things-up">#</a></h2>
@@ -373,7 +385,11 @@
 </ul>
 <h3 id="type-2-liquidity-providing-lping">Type 2: Liquidity Providing (LPing)<a hidden class="anchor" aria-hidden="true" href="#type-2-liquidity-providing-lping">#</a></h3>
 <p>This is the big one. You&rsquo;re not just locking one token; you&rsquo;re providing liquidity to a trading pair on a DEX. In most cases, providing liquidity doesn&rsquo;t really fall under the staking umbrella, but it&rsquo;s worth mention here. You&rsquo;re locking tokens in a contract to earn a yield.</p>
-<p><img alt="Base liquidity pool" loading="lazy" src="/img/base-liquidity-pool.webp" title="Base liquidity pool"></p>
+<p><img src="/img/base-liquidity-pool.webp" 
+     alt="Base liquidity pool" 
+      title="Base liquidity pool" 
+     loading="lazy">
+</p>
 <ul>
 <li><strong>How It Works:</strong> You go to a DEX like Aerodrome or Uniswap. Instead of swapping, you go to the &ldquo;Pool&rdquo; or &ldquo;Liquidity&rdquo; section. Maybe you decide to provide liquidity for the ETH/USDC pair. To do this, you&rsquo;ll supply both ETH and USDC in equal value for a full-range pool position. So, if you want to provide $1,000 in liquidity, you supply $500 worth of ETH and $500 worth of USDC.</li>
 <li><strong>Why You Do It:</strong> You earn a portion of the trading fees from everyone who swaps that ETH/USDC pair. It&rsquo;s like owning a small piece of the exchange and getting a cut of the all the in-range trades. You crypto mogul!</li>

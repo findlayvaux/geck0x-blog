@@ -276,9 +276,9 @@
 
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="http://localhost:1313/img/ethereum-header.png" alt="ethereum header - what is ethereum">
-        
+        <img loading="lazy" src="http://localhost:1313/posts/what-is-ethereum-beginner-friendly-guide/img/ethereum-header.png" alt="ethereum header - what is ethereum">
 </figure>
+
   <div class="post-content"><p>Crypto talk turns into geek-speak pretty fast. But it&rsquo;s simpler than it seems. Let’s slow down the Nerd Express and start with the basics. Ethereum is the engine behind most of the cool stuff you see on the Base chain and throughout much of the crypto world.</p>
 <p>Once you understand how Ethereum works, it&rsquo;s like seeing the world below from an airplane. Instantly, it all fits together, and all this crypto stuff — even beyond Ethereum — makes more sense.</p>
 <p>Let&rsquo;s learn what Ethereum is and what made it the greatest crypto innovation since Satoshi pressed the GO button on Bitcoin. The gecko will guide you.</p>
@@ -304,20 +304,32 @@
 <p>Ethereum is a shared computer that lives on thousands of machines (validators) around the world. <strong>Nobody owns the network</strong> and nobody can change the rules just because the food joint got their lunch order wrong and now <em>someone&rsquo;s gonna pay</em>.</p>
 <p>Remember that time the bank let that charge for @%*&amp;!-hub go through even though you swore it wasn&rsquo;t you? Not a problem with Ethereum. Only transactions approved by your private key get through. But if it was you&hellip; well, let&rsquo;s just say the blockchain never forgets what you did with your crypto wallet.</p>
 <p>And the blockchain is open, permissionless, as they say. Anyone &ndash; anywhere in the world &ndash; can send transactions, read the transaction data, or run programs on the Ethererum Virtual Machine (EVM). The virtual bit just means the network runs in an isolated environment where nobody can fiddle with the transactions. It just takes a bit of ETH to grease the silicon wheels. <strong>ETH functions as the gas token</strong> to keep the machines purring along. More on that in a bit, fam.</p>
-<p><img alt="ethereum gas fees" loading="lazy" src="/img/ethereum-gas-fees.png" title="ethereum gas fees"></p>
+<p><img src="/img/ethereum-gas-fees.png" 
+     alt="ethereum gas fees" 
+      title="ethereum gas fees" 
+     loading="lazy">
+</p>
 <p>In the early days, they called Ethereum a “world computer.” It&rsquo;s a global network of computers that all execute the same smart contracts and <strong>must agree</strong> on the same results.</p>
 <p>It&rsquo;s not all about ETH, though. ETH is the gas token and a store of value in its own right, but the network also supports programmable tokens. These might be fun memecoin tokens, or utility tokens that unlock features. Tokens represent ownership, but whatever they represent may or may not have value. That&rsquo;s up to the market to decide.</p>
 <h2 id="smart-contracts-programs-that-run-by-themselves"><strong>Smart Contracts: Programs That Run by Themselves</strong><a hidden class="anchor" aria-hidden="true" href="#smart-contracts-programs-that-run-by-themselves">#</a></h2>
 <p>Smart contracts run by themselves once deployed. Some are “set in stone” and never change. Others include admin or upgrade functions, which means the developer can update parts of the contract or control certain features. <strong>Always check for owner permissions before trusting a token contract.</strong> They can have some sneaky functions like blacklisting wallet addresses (so you can&rsquo;t transfer or sell).</p>
 <p>Think of it like buying a candy bar from a vending machine. You feed the machine the right amount of quarters and press the button. Whhirrr, clack! Now, you&rsquo;ve got a snack. No middleman needed, and everyone gets the same result, given the same conditions. <strong>It&rsquo;s deterministic.</strong> And you don&rsquo;t need to ask Mom for permission, goshdarnit.</p>
-<p><img alt="smart contract mechanics" loading="lazy" src="/img/smart-contract-infographic.webp" title="smart contract mechanics"></p>
+<p><img src="/img/smart-contract-infographic.webp" 
+     alt="smart contract mechanics" 
+      title="smart contract mechanics" 
+     loading="lazy">
+</p>
 <p>Smart contracts take the permissionless concept and apply it to finance, games, art, tokens, and everything else on the chain. <a href="/posts/defi-on-base-the-no-bs-guide-to-decentralized-finance-without-getting-rekt/">Every decentralized finance (DeFi)</a> protocol, NFT marketplace, and memecoin is powered by these contracts. <strong>They work like switches. If this happens, do that.</strong> And they do the same thing every time the same condition trips the switch. Smart contracts can even call other smart contracts or act on events from the analog world. Powerful stuff.</p>
 <p>Base uses these EVM smart contracts, does the math and switch logic on the fly, and then passes the transactions to Ethereum in bulk. Base says to Ethereum, &ldquo;Yo, big brother, this is my record of what happened. <strong>Make sure nobody can change it.</strong>&rdquo;</p>
 <h2 id="yeah-but-what-are-tokens-anyway">Yeah, But What Are Tokens, Anyway?<a hidden class="anchor" aria-hidden="true" href="#yeah-but-what-are-tokens-anyway">#</a></h2>
 <p>On Ethereum and Base, a token is just a number with rules wrapped around it. A smart contract keeps track of who owns how many and what those tokens are supposed to represent. That something could be money, voting power, game items, art, membership, or a completely unhinged memecoin with a crossed-eyed blue gorilla. The chain doesn&rsquo;t care. It just keeps score.</p>
 <p>You can think of tokens as on-chain ownership receipts. Instead of being tracked on a spreadsheet on some company’s laptop, the ledger lives on Ethereum (or Base), where everyone can read it, and nobody can quietly tweak the numbers when everyone&rsquo;s watching football.</p>
 <p>At a high level, there are two big types of tokens you’ll see all the time on EVM networks, and a third kind that&rsquo;s becoming more popular due to its ability to change forms.</p>
-<p><img alt="layer 2 ethereum security" loading="lazy" src="/img/evm-token-standards.webp" title="layer 2 ethereum security"></p>
+<p><img src="/img/evm-token-standards.webp" 
+     alt="layer 2 ethereum security" 
+      title="layer 2 ethereum security" 
+     loading="lazy">
+</p>
 <h3 id="fungible-tokens-one-unit--any-other-unit"><strong>Fungible Tokens: One Unit = Any Other Unit</strong><a hidden class="anchor" aria-hidden="true" href="#fungible-tokens-one-unit--any-other-unit">#</a></h3>
 <p>This is the “all copies are the same” group.</p>
 <p>Most fungible tokens follow the ERC-20 standard (fungible). This standard helps wallet apps know what to do with these digital critters.</p>
@@ -402,7 +414,11 @@
 <p>It&rsquo;s the way of the World Computer</p>
 <h2 id="layer-2s-ethereums-helpful-sidekicks"><strong>Layer 2s: Ethereum’s Helpful Sidekicks</strong><a hidden class="anchor" aria-hidden="true" href="#layer-2s-ethereums-helpful-sidekicks">#</a></h2>
 <p>Ethereum’s great, but it can get crowded, and all it takes is one viral app to ruin the party for everyone. Case in point, <a href="https://consensys.io/blog/the-inside-story-of-the-cryptokitties-congestion-crisis">CryptoKitties broke everyone&rsquo;s crypto superhighway</a> with its NFT cat thingees. The whole network slowed to a crawl while people littered the internet with network-clogging NFT furballs. Even the simplest transactions cost a ton of ETH. Booo!</p>
-<p><img alt="layer 2 ethereum security" loading="lazy" src="/img/layer-2-ethereum-security.webp" title="layer 2 ethereum security"></p>
+<p><img src="/img/layer-2-ethereum-security.webp" 
+     alt="layer 2 ethereum security" 
+      title="layer 2 ethereum security" 
+     loading="lazy">
+</p>
 <p>That’s where Layer 2s come in.</p>
 <p>Layer 2s (L2s) like Base, Optimism, Arbitrum, and others:</p>
 <ul>
@@ -496,7 +512,11 @@ Sometimes they make you shout, &ldquo;@%*&amp;!&rdquo; Twice.</p>
 <h3 id="complex-for-beginners"><strong>Complex for Beginners</strong><a hidden class="anchor" aria-hidden="true" href="#complex-for-beginners">#</a></h3>
 <p>Ethereum is wonderfully nerdy stuff. But that also makes it a bit tougher to use if you&rsquo;re new to this. The good news is that the Based devs are working to make it easier to for all of us, abstracting all the geeky code stuff and giving users a simpler interface for powerful dApps. Point. Click. Done.</p>
 <p>Case in point: <a href="https://lumpylabs.com/bundles">Token Bundles on Lumpy Labs</a>. Buy up to five tokens in a few clicks. All that shizzle would take a few days to track down and buy without this cool tool.</p>
-<p><img alt="lumpy labs bundles" loading="lazy" src="/img/lumpy-labs-bundles.png" title="lumpy labs bundles"></p>
+<p><img src="/img/lumpy-labs-bundles.png" 
+     alt="lumpy labs bundles" 
+      title="lumpy labs bundles" 
+     loading="lazy">
+</p>
 <div style="text-align:center;">
   <a href="https://lumpylabs.com/bundles" class="btn" target="_blank">
     Try Token Bundles

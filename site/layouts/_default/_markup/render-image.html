@@ -1,0 +1,9 @@
+<img src="{{ .Destination | safeURL }}" 
+     alt="{{ .Text }}" 
+     {{ with .Title}} title="{{ . }}"{{ end }} 
+     loading="lazy" 
+     {{- if .Attributes }}
+        {{- range $k, $v := .Attributes }}
+            {{- if $v }} {{ $k }}="{{ $v }}" {{- end }}
+        {{- end }}
+     {{- end }}>
