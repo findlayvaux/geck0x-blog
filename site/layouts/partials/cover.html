@@ -8,10 +8,24 @@
         <img loading="lazy" src="{{ $responsiveImages.Permalink }}" alt="{{ $alt }}">
     {{- else }}
         {{- $img := .Params.cover.image }}
-        {{- if not (hasPrefix $img "/") }}
+        {{- $isRelative := .Params.cover.relative | default false }}
+        
+        {{/* Logic to handle static vs relative images */}}
+        {{- if $isRelative }}
             {{- $img = printf "%s%s" .Permalink $img }}
+        {{- else }}
+            {{- if not (hasPrefix $img "/") }}
+                {{- $img = $img | absURL }}
+            {{- else }}
+                {{- $img = $img | absURL }}
+            {{- end }}
         {{- end }}
+        
         <img loading="lazy" src="{{ $img }}" alt="{{ $alt }}">
+    {{- end }}
+    {{- /* Display Caption if available */}}
+    {{- if .Params.cover.caption }}
+    <p>{{ .Params.cover.caption | markdownify }}</p>
     {{- end }}
 </figure>
 {{- end }}
