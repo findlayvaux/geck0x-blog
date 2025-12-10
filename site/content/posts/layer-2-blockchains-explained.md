@@ -6,10 +6,9 @@ draft = false
 
 [cover]
 image = "img/ethereum-traffic-jam.jpg"
-alt = "ethereum header"
+alt = "ethereum traffic - layer 2 blockchains"
 relative = false
 +++
-![ethereum blockchain highway](/img/ethereum-traffic-jam.jpg "ethereum blockchain highway")
 
 Getting stuck in traffic sucks. Everyone's burning gas, but they're going nowhere fast. And everybody's grumpy about it. That’s Ethereum when things get a bit busy. It’s the smart contract king, the undisputed main highway for everything DeFi and the hottest NFT stuff. But sometimes the king's caravan makes its own traffic jam and then gets stuck in it.
 

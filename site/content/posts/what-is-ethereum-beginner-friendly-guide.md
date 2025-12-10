@@ -6,10 +6,9 @@ draft = false
 
 [cover]
 image = "img/ethereum-header.png"
-alt = "ethereum header"
+alt = "ethereum header - what is ethereum"
 relative = false
 +++
-![ethereum header](/img/ethereum-header.png "ethereum header")
 
 Crypto talk turns into geek-speak pretty fast. But it's simpler than it seems. Let’s slow down the Nerd Express and start with the basics. Ethereum is the engine behind most of the cool stuff you see on the Base chain and throughout much of the crypto world. 
 

@@ -6,10 +6,9 @@ draft = false
 
 [cover]
 image = "img/blockchain-decentralization-loading.png"
-alt = "ethereum header"
+alt = "blockchain decentralization - is crypto denentralized"
 relative = false
 +++
-![blockchain decentralization](/img/blockchain-decentralization-loading.png "blockchain decentralization")
 
 Forget TPS. Forget gas fees. Forget the next "1000x" gem shilled by some guy with a cig-smoking cat PFP on X. Let's be real, fam, cats are dodgy.
 
