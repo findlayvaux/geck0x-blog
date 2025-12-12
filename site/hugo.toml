@@ -50,37 +50,26 @@ disableKinds = ["RSS"]
   customCSS = ["css/custom.css"]
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+  # DELETED: Home
+  # DELETED: About
 
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
+    weight = 1  # Changed to 1 since Home is gone
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Topics"
+    url = "/tags/"
     weight = 2
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 3
-
-  # --- NEW: TOPICS LINK ---
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-  # ------------------------
-
-  [[menu.main]]
     identifier = "search"
-    name = "Search"
+    name = "Search 🧐"
     url = "/search/"
-    weight = 5
+    weight = 3
 
 [markup]
   [markup.goldmark]
