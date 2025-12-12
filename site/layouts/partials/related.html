@@ -18,43 +18,58 @@
     .related-grid {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Centers the tiles */
-        gap: 20px;               /* Space between tiles */
+        justify-content: center;
+        gap: 20px;
     }
 
     .related-card {
-        flex: 1 1 250px;         /* Grow to fill, but min-width 250px */
-        max-width: 300px;        /* Don't get too wide */
-        background: var(--entry); /* Matches PaperMod theme card color */
-        padding: 20px;
+        flex: 1 1 250px;
+        max-width: 300px;
+        background: var(--entry);
         border-radius: var(--radius);
         border: 1px solid var(--border);
-        box-shadow: var(--box-shadow); /* Subtle shadow if theme uses it */
+        box-shadow: var(--box-shadow);
         transition: transform 0.1s;
-        text-decoration: none !important; /* Remove underline from card */
+        text-decoration: none !important;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        overflow: hidden; /* Ensures image corners stay rounded */
     }
 
     .related-card:hover {
-        transform: scale(1.02);   /* Tiny pop effect on hover */
+        transform: scale(1.02);
         background: var(--tertiary);
     }
 
+    /* New Image Styles */
+    .related-img {
+        width: 100%;
+        height: 150px; /* Fixed height for uniformity */
+        object-fit: cover; /* Crops image nicely */
+        border-bottom: 1px solid var(--border);
+    }
+
     .related-card h4 {
-        margin: 0;
+        margin: 15px;
         font-size: 1.1rem;
         color: var(--primary);
     }
 </style>
 
 <div class="related-section">
-    <h3 class="related-title">{{ i18n "related_content" | default "Related Posts" }}</h3>
+    <h3 class="related-title">{{ i18n "related_content" | default "Read These Next" }}</h3>
     
     <div class="related-grid">
         {{- range . -}}
         <a class="related-card" href="{{ .Permalink }}">
+            
+            {{- /* IMAGE LOGIC START */ -}}
+            {{- $img := .Params.cover.image -}}
+            {{- if $img -}}
+                <img class="related-img" src="{{ $img | absURL }}" alt="{{ .Title }}">
+            {{- end -}}
+            {{- /* IMAGE LOGIC END */ -}}
+
             <h4>{{ .Title }}</h4>
         </a>
         {{- end -}}

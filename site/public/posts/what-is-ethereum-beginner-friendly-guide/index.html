@@ -564,42 +564,48 @@ Sometimes they make you shout, &ldquo;@%*&amp;!&rdquo; Twice.</p>
     .related-grid {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;  
-        gap: 20px;                
+        justify-content: center;
+        gap: 20px;
     }
 
     .related-card {
-        flex: 1 1 250px;          
-        max-width: 300px;         
-        background: var(--entry);  
-        padding: 20px;
+        flex: 1 1 250px;
+        max-width: 300px;
+        background: var(--entry);
         border-radius: var(--radius);
         border: 1px solid var(--border);
-        box-shadow: var(--box-shadow);  
+        box-shadow: var(--box-shadow);
         transition: transform 0.1s;
-        text-decoration: none !important;  
+        text-decoration: none !important;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        overflow: hidden;  
     }
 
     .related-card:hover {
-        transform: scale(1.02);    
+        transform: scale(1.02);
         background: var(--tertiary);
     }
 
+     
+    .related-img {
+        width: 100%;
+        height: 150px;  
+        object-fit: cover;  
+        border-bottom: 1px solid var(--border);
+    }
+
     .related-card h4 {
-        margin: 0;
+        margin: 15px;
         font-size: 1.1rem;
         color: var(--primary);
     }
 </style>
 
 <div class="related-section">
-    <h3 class="related-title">Related Posts</h3>
+    <h3 class="related-title">Read These Next</h3>
     
-    <div class="related-grid"><a class="related-card" href="http://localhost:1313/posts/layer-2-blockchains-explained/">
-            <h4>🦎 Layer 2 Blockchains: Ethereum’s Sidekicks Explained</h4>
+    <div class="related-grid"><a class="related-card" href="http://localhost:1313/posts/layer-2-blockchains-explained/"><img class="related-img" src="http://localhost:1313/img/ethereum-traffic-jam.jpg" alt="🦎 Layer 2 Blockchains: Ethereum’s Sidekicks Explained"><h4>🦎 Layer 2 Blockchains: Ethereum’s Sidekicks Explained</h4>
         </a></div>
 </div>
 
