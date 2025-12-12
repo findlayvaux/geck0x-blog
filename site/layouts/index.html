@@ -68,7 +68,7 @@
 </style>
 
 <div class="tag-cloud">
-    <div class="tag-cloud-title">Popular Tags</div>
+    <div class="tag-cloud-title">🏷️ Popular Tags</div>
     {{- range $name, $taxonomy := .Site.Taxonomies.tags }}
         <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">
             #{{ $name }} <span>({{ $taxonomy.Count }})</span>
@@ -91,6 +91,16 @@
 {{- $term := .Data.Singular }}
 
 {{/* --- 2. Render The Grid --- */}}
+
+<h3 style="
+    text-align: center; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    color: var(--primary);">
+    🦎 Newly Minted Posts
+</h3>
 <div class="post-grid"> 
 
 {{- range $index, $page := $paginator.Pages }}
