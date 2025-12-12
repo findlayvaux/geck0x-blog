@@ -1,0 +1,63 @@
+{{- $related := .Site.RegularPages.Related . | first 3 -}}
+
+{{- with $related -}}
+<style>
+    .related-section {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        text-align: center;
+    }
+    
+    .related-title {
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .related-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Centers the tiles */
+        gap: 20px;               /* Space between tiles */
+    }
+
+    .related-card {
+        flex: 1 1 250px;         /* Grow to fill, but min-width 250px */
+        max-width: 300px;        /* Don't get too wide */
+        background: var(--entry); /* Matches PaperMod theme card color */
+        padding: 20px;
+        border-radius: var(--radius);
+        border: 1px solid var(--border);
+        box-shadow: var(--box-shadow); /* Subtle shadow if theme uses it */
+        transition: transform 0.1s;
+        text-decoration: none !important; /* Remove underline from card */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .related-card:hover {
+        transform: scale(1.02);   /* Tiny pop effect on hover */
+        background: var(--tertiary);
+    }
+
+    .related-card h4 {
+        margin: 0;
+        font-size: 1.1rem;
+        color: var(--primary);
+    }
+</style>
+
+<div class="related-section">
+    <h3 class="related-title">{{ i18n "related_content" | default "Related Posts" }}</h3>
+    
+    <div class="related-grid">
+        {{- range . -}}
+        <a class="related-card" href="{{ .Permalink }}">
+            <h4>{{ .Title }}</h4>
+        </a>
+        {{- end -}}
+    </div>
+</div>
+{{- end -}}

@@ -1,19 +1,27 @@
-baseurl = "https://www.geck0x.com/"
+# 1. FIXED: Matches your actual domain (no www)
+baseURL = "https://geck0x.com/"
+
 languageCode = "en-us"
 languageLang = "en"
 title = "Geck0x"
 theme = "PaperMod"
 
+# 2. NEW: auto-generates robots.txt pointing to your sitemap
+enableRobotsTXT = true
 
-# Kept your existing disables. 
-# Note: Search works fine without RSS or Taxonomy.
-disableKinds = ["RSS", "taxonomy"]
+# 3. UPDATED: Removed "taxonomy" so Tags will work.
+#    Kept RSS disabled as requested.
+disableKinds = ["RSS"]
 
-# --- NEW: REQUIRED FOR SEARCH ---
-# This tells Hugo to generate the index.json file used by Fuse.js
+# 4. NEW: Explicitly tells Hugo to ONLY generate Tags.
+#    Because "categories" is missing here, it won't be generated.
+[taxonomies]
+  tag = "tags"
+
+# --- REQUIRED FOR SEARCH ---
 [outputs]
   home = ["HTML", "JSON"]
-# --------------------------------
+# ---------------------------
 
 [pagination]
   pagerSize = 10
@@ -28,14 +36,18 @@ disableKinds = ["RSS", "taxonomy"]
   ShowReadingTime = true
   ShowShareButtons = true
   ShareButtons = ["x", "linkedin", "reddit", "facebook"]
-  ShowPostNavLinks = true
+  
+  # --- ADDED: ENABLES RELATED POSTS ---
+  ShowRelatedContent = true
+  # ------------------------------------
+
+  ShowPostNavLinks = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   disableSpecial1stPost = false
   comments = false
   homeInfoParams = false
   customCSS = ["css/custom.css"]
-  # (NO logo params needed now)
 
 [menu]
   [[menu.main]]
@@ -56,15 +68,34 @@ disableKinds = ["RSS", "taxonomy"]
     url = "/about/"
     weight = 3
 
-  # --- NEW: SEARCH MENU ITEM ---
+  # --- NEW: TOPICS LINK ---
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+  # ------------------------
+
   [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 4
-  # -----------------------------
+    weight = 5
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      
+[related]
+  includeNewer = true
+  threshold = 50        # Set to 50 (good balance). 0 is too messy.
+  toLower = false       # Revert to false (standard practice).
+
+  [[related.indices]]
+    name = "tags"       # Match based on tags
+    weight = 100        # High priority
+
+  [[related.indices]]
+    name = "date"       # Slightly prefer newer posts
+    weight = 10

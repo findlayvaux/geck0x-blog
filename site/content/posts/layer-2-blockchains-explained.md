@@ -2,6 +2,7 @@
 title = "🦎 Layer 2 Blockchains: Ethereum’s Sidekicks Explained"
 description = "Learn why Ethereum needs a little help from its friends (and how they save you a ton of money)."
 date = "2025-11-30"
+tags = ["base", "scaling", "ethereum", "evm"]
 draft = false
 
 [cover]

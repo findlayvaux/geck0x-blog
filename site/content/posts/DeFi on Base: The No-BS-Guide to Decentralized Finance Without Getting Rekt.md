@@ -2,6 +2,7 @@
 title = "🦎 DeFi on Base: The No-BS Guide to Decentralized Finance Without Getting Rekt"
 description = "Learn what DeFi is and why crypto isn't just a bunch of digital pet rocks."
 date = "2025-12-01"
+tags = ["base", "defi", "dex", "aave", "uniswap"]
 draft = false
 
 [cover]

@@ -2,6 +2,7 @@
 title = "🦎 What Is Ethereum? A Beginner-Friendly Guide to the EVM"
 description = "Learn how Ethereum works. No pointy wizard hat needed."
 date = 2025-11-23T01:16:47-05:00
+tags = ["ethereum", "erc-20", "evm", "proof-of-stake"]
 draft = false
 
 [cover]
