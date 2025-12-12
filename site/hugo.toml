@@ -61,7 +61,7 @@ disableKinds = ["RSS"]
 
   [[menu.main]]
     identifier = "tags"
-    name = "Topics"
+    name = "Tags"
     url = "/tags/"
     weight = 2
 

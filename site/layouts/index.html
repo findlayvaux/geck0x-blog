@@ -68,7 +68,7 @@
 </style>
 
 <div class="tag-cloud">
-    <div class="tag-cloud-title">Popular Topics</div>
+    <div class="tag-cloud-title">Popular Tags</div>
     {{- range $name, $taxonomy := .Site.Taxonomies.tags }}
         <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">
             #{{ $name }} <span>({{ $taxonomy.Count }})</span>
