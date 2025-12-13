@@ -1,6 +1,6 @@
 +++
 title = "🦎 Is Crypto Really Decentralized? Who Has the Kill Switch for Your Crypto?"
-description = "Learn the real story on crypto decentalization, or lack thereof."
+description = "Learn the real story on crypto decentralization, or lack thereof."
 date = "2025-12-08"
 tags = ["base", "decentralization", "layer-2"]
 draft = false
