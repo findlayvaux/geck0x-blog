@@ -1,11 +1,12 @@
-.page-footer {
+.footer {
     display: flex;
     justify-content: center;
-    margin-top: 40px; /* Separates buttons from the bottom of the grid */
+    margin-top: 40px;
     width: 100%;
 }
 
-.page-footer a {
+/* CHANGED: Target links inside .footer */
+.footer a {
     background: var(--entry);
     border: 1px solid var(--border);
     padding: 10px 20px;
@@ -15,6 +16,30 @@
     font-weight: bold;
 }
 
-.page-footer a:hover {
-    background: var(--tertiary); /* Highlight color on hover */
+.footer a:hover {
+    background: var(--tertiary);
+}
+
+/* Style top menu links to look like buttons/tags */
+#menu li a {
+    background: var(--entry);         /* Same background as tags/cards */
+    border: 1px solid var(--border);  /* Same subtle border */
+    border-radius: var(--radius);     /* Same rounded corners */
+    padding: 8px 16px;                /* Make them bigger/clickable */
+    margin-left: 10px;                /* Space between the buttons */
+    transition: transform 0.1s, background 0.2s; /* Smooth animation */
+}
+
+/* NEW: High Contrast Hover Effect */
+#menu li a:hover {
+    background: var(--primary);  /* Button becomes solid White (in dark mode) */
+    color: var(--theme) !important;       /* Text becomes Black (in dark mode) */
+    border-color: var(--primary); /* Border matches the fill */
+    transform: scale(1.05);
+}
+
+/* Optional: Highlight the "active" page (e.g. if you are on the Search page) */
+#menu .active a {
+    background: var(--tertiary);
+    border-color: var(--primary);
 }

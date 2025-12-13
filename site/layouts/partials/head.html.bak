@@ -231,3 +231,50 @@
 {{- /* Removed conflicting twitter_cards partial here */}}
 {{- partial "templates/schema_json.html" . }}
 {{- end -}}
+
+{{- /* CSS Override for Menu Buttons */ -}}
+<style>
+	
+/* DEBUG TEST: If the site doesn't turn red, this file is being ignored. */
+    body { border: 10px solid red !important; }
+    
+    /* Force Menu Items (Top Right) to look like Buttons */
+    #menu li a {
+        background: var(--entry) !important;
+        border: 1px solid var(--border) !important;
+        border-radius: var(--radius) !important;
+        padding: 8px 16px !important;
+        margin-left: 10px !important;
+        transition: transform 0.1s, background 0.2s !important;
+    }
+
+    /* High Contrast Hover Effect */
+    #menu li a:hover {
+        background: var(--primary) !important; 
+        color: var(--theme) !important;
+        border-color: var(--primary) !important;
+        transform: scale(1.05);
+    }
+
+    /* Active Page Highlight */
+    #menu .active a {
+        background: var(--tertiary) !important;
+        border-color: var(--primary) !important;
+    }
+
+    /* Footer Links */
+    .footer a {
+        background: var(--entry);
+        border: 1px solid var(--border);
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 8px;
+        text-decoration: none !important;
+        font-weight: bold;
+    }
+
+    .footer a:hover {
+        background: var(--tertiary);
+        transform: scale(1.05);
+    }
+</style>

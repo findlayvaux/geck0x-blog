@@ -13,14 +13,14 @@
 
 /* Cursor blink (removed strobe effect — now calm + subtle) */
 @keyframes blinkCursor {
-  0%  { border-right-color: #00cc55; }
+  0%  { border-right-color: #51b20b; }
   50% { border-right-color: transparent; }
-  100%{ border-right-color: #00cc55; }
+  100%{ border-right-color: #51b20b; }
 }
 
 /* After typing completes, fade cursor away cleanly */
 @keyframes removeCursor {
-  from { border-right-color: #00cc55; }
+  from { border-right-color: #51b20b; }
   to   { border-right-color: transparent; }
 }
 
@@ -37,7 +37,7 @@
     blinkCursor 0.8s 2s 3,
     removeCursor 0.2s 4.4s forwards;
   display: inline-block;
-  color: #00cc55 !important; /* New readable green */
+  color: #51b20b !important; /* New readable green */
 }
 </style>
 

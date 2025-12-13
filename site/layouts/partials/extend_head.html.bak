@@ -1,0 +1,48 @@
+{{- /* DIRECT CSS INJECTION TO FORCE MENU STYLES */ -}}
+<style>
+    /* 1. TOP MENU BUTTONS */
+    #menu li a {
+        background: var(--entry) !important;
+        border: 1px solid var(--border) !important;
+        border-radius: var(--radius) !important;
+        padding: 8px 16px !important;
+        margin-left: 10px !important;
+        transition: transform 0.1s !important;
+    }
+
+    /* Hover State (High Contrast) */
+    #menu li a:hover {
+        background: var(--primary) !important; 
+        color: var(--theme) !important;
+        border-color: var(--primary) !important;
+        transform: scale(1.05);
+    }
+
+    /* Active State */
+    #menu .active a {
+        background: var(--tertiary) !important;
+        border-color: var(--primary) !important;
+    }
+
+    /* 2. FOOTER LINKS */
+    .footer {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 40px;
+    }
+
+    .footer a {
+        background: var(--entry);
+        border: 1px solid var(--border);
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none !important;
+        font-weight: bold;
+    }
+
+    .footer a:hover {
+        background: var(--tertiary);
+        transform: scale(1.05);
+    }
+</style>
