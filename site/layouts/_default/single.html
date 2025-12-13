@@ -4,7 +4,7 @@
 
   <header class="post-header">
 
-    <style>
+<style>
     /* Animation Keyframes */
     @keyframes typing {
       from { width: 0; }
@@ -23,25 +23,37 @@
     }
 
     .typewriter {
-      /* Layout: Ensures the box is only as wide as the text */
+      /* Desktop Defaults */
       display: inline-flex; 
       width: 0;               
       max-width: fit-content; 
       overflow: hidden;       
       white-space: nowrap;    
       
-      /* Visuals */
       border-right: 3px solid #51b20b; 
       color: #51b20b; 
       font-family: monospace; 
       font-size: 1.2rem;
       margin-bottom: 20px;
 
-      /* Animation: Use var(--char-count) for perfect timing */
       animation: 
         typing 2s steps(var(--char-count, 40), end) forwards, 
         blinkCursor 0.75s step-end infinite,
         removeCursor 0s 2.5s forwards; 
+    }
+
+    /* --- MOBILE FIX --- */
+    /* On screens smaller than 768px (Tablets & Phones), disable the effect */
+    @media screen and (max-width: 768px) {
+        .typewriter {
+            display: block;          /* Let it behave like a normal paragraph */
+            width: 100%;             /* Use full width */
+            max-width: 100%;
+            white-space: normal;     /* Allow text to wrap to the next line */
+            overflow: visible;       /* Don't hide the text */
+            border-right: none;      /* Remove the cursor */
+            animation: none;         /* Stop the typing motion */
+        }
     }
     </style>
 
