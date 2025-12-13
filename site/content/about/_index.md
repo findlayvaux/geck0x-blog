@@ -2,6 +2,13 @@
 title = "About Geck0x.com"
 +++
 
+<div class="video-float">
+<p><img src="/img/geck0x-og.png" 
+     alt="Geck0x" 
+      title="Geck0x">
+</p>
+</div>
+
 Geck0x is another project from the sleep-deprived, sugar-addled minds at [Lumpy Labs](https://lumpylabs.com), a crypto startup focused on EVM chains. Base, in particular. 
 
 We build tools. We educate. We HODL. 
@@ -9,9 +16,6 @@ We build tools. We educate. We HODL.
 We started this blockchain education blog with one simple goal: make crypto easy to understand -- and safer for users. 
 
 Let's make crypto better, fam.
-
-![Geck0x](/img/geck0x-og.png "Geck0x")
-
 
 ## Hey, wait! What's with the 0x in Geck0x?
 
