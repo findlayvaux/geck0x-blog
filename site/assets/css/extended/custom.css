@@ -279,24 +279,7 @@
 [data-theme="dark"] body {
     background-color: #161618 !important;
 }
-
-/* Force Header to be Pitch Black in Dark Mode */
-[data-theme="dark"] .header {
-    background: #000000 !important;
-    border-bottom: 1px solid #51b20b; 
-}
-
-/* Force Header to be light gray in Light Mode */
-[data-theme="light"] .header{
-    background: #e5e5e5 !important;
-    /* Optional: adds a subtle line to separate header from body */
-    border-bottom: 1px solid #51b20b; 
-}
-
-/* Ensure the nav container inside doesn't override it */
-[data-theme="dark"] .nav {
-    background: transparent !important;
-}
+ty
 
 /* Change homepage post titles to Geck0x Green */
 .entry-header h2, .related-card h4 {
@@ -327,3 +310,7 @@
     padding: 0px !important; 
 }
 
+/* Make the Site Logo Text Green */
+.logo a {
+    color: #51b20b !important;
+}

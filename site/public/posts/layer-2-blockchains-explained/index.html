@@ -10,7 +10,7 @@
 <meta name="description" content="Learn why Ethereum needs a little help from its friends (and how they save you a ton of money).">
 <meta name="author" content="Geck0x">
 <link rel="canonical" href="http://localhost:1313/posts/layer-2-blockchains-explained/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b1c73d877ac7020ec7dca23c4abeceea5be33f45dfd2bcb6dbbc701d6c173fa9.css" integrity="sha256-scc9h3rHAg7H3KI8Sr7O6lvjP0Xf0ry227xwHWwXP6k=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8abb0a9609ab65af761fa7ca33ae1bb1926b08565d4e359f2292e5d9ef214c0e.css" integrity="sha256-irsKlgmrZa92H6fKM64bsZJrCFZdTjWfIpLl2e8hTA4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -148,7 +148,9 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Geck0x (Alt + H)">Geck0x</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Geck0x (Alt + H)">
+                <img src="http://localhost:1313/img/header-logo-100.png" alt="" aria-label="logo"
+                    height="40">Geck0x</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -197,63 +199,52 @@
 
   <header class="post-header">
 
-<style>
- 
-@keyframes typing {
-  from { width: 0; }
-  to   { width: 100%; }
-}
+    <style>
+     
+    @keyframes typing {
+      from { width: 0; }
+      to   { width: 100%; }
+    }
 
- 
-@keyframes blinkCursor {
-  0%  { border-right-color: #51b20b; }
-  50% { border-right-color: transparent; }
-  100%{ border-right-color: #51b20b; }
-}
+    @keyframes blinkCursor {
+      0%   { border-right-color: #51b20b; }
+      50%  { border-right-color: transparent; }
+      100% { border-right-color: #51b20b; }
+    }
 
- 
-@keyframes removeCursor {
-  from { border-right-color: #51b20b; }
-  to   { border-right-color: transparent; }
-}
+    @keyframes removeCursor {
+      from { border-right-color: #51b20b; }
+      to   { border-right-color: transparent; }
+    }
 
- 
-@keyframes pulseGlow { }
+    .typewriter {
+       
+      display: inline-flex; 
+      width: 0;               
+      max-width: fit-content; 
+      overflow: hidden;       
+      white-space: nowrap;    
+      
+       
+      border-right: 3px solid #51b20b; 
+      color: #51b20b; 
+      font-family: monospace; 
+      font-size: 1.2rem;
+      margin-bottom: 20px;
 
- 
-.typewriter {
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 3px solid #00cc55;
-  animation:
-    typing 2s steps(22),
-    blinkCursor 0.8s 2s 3,
-    removeCursor 0.2s 4.4s forwards;
-  display: inline-block;
-  color: #51b20b !important;  
-}
-</style>
+       
+      animation: 
+        typing 2s steps(var(--char-count, 40), end) forwards, 
+        blinkCursor 0.75s step-end infinite,
+        removeCursor 0s 2.5s forwards; 
+    }
+    </style>
 
-<div style="display:flex; flex-direction:column; align-items:flex-start; margin-bottom:1.5rem;">
-
-  <div style="display:flex; align-items:center; gap:10px;">
-    <img src="/img/header-logo-100.png"
-         alt="Geck0x logo"
-         style="height:100px; width:auto; border-radius:6px;">
-
-    <span class="typewriter"
-          style="font-size:1.6rem; font-weight:600;">
-      Geck0x Crypto Blog
-    </span>
-  </div>
-
-</div>
-<div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
 
     <h1 class="post-title entry-hint-parent">
       🦎 Layer 2 Blockchains: Ethereum’s Sidekicks Explained
-    </h1>
-    <div class="post-description">
+    </h1><div class="typewriter" style="--char-count: 95;">
       Learn why Ethereum needs a little help from its friends (and how they save you a ton of money).
     </div>
     <div class="post-meta"><span title='2025-11-30 00:00:00 +0000 UTC'>November 30, 2025</span>&nbsp;·&nbsp;<span>7 min</span>&nbsp;·&nbsp;<span>Geck0x</span>

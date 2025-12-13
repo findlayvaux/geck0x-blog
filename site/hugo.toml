@@ -88,3 +88,8 @@ disableKinds = ["RSS"]
   [[related.indices]]
     name = "date"       # Slightly prefer newer posts
     weight = 10
+
+[params.label]
+    text = "Geck0x"
+    icon = "/img/header-logo-100.png"   # Path to your image (relative to static)
+    iconHeight = 40                # Controls the size (30-40 is usually good)
