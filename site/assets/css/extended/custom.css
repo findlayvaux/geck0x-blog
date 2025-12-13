@@ -302,15 +302,15 @@
     color: #51b20b !important;
 }
 
-/* Links inside the post body */
-.post-content a {
+/* Links inside the post body (EXCLUDING buttons) */
+.post-content a:not(.btn) {
     color: #51b20b;
-    box-shadow: none; /* <--- This removes PaperMod's specific underline */
-    text-decoration: none; /* Good to keep just in case */
+    box-shadow: none;
+    text-decoration: none;
 }
 
-/* Optional: Add underline ONLY on hover */
-.post-content a:hover {
-    box-shadow: 0 2px 0 #51b20b; /* Adds the line back when you mouse over */
+/* Hover effect for normal links only */
+.post-content a:not(.btn):hover {
+    box-shadow: 0 2px 0 #51b20b;
     opacity: 0.9;
 }
