@@ -314,8 +314,12 @@ ty
 
 .logo a {
     font-family: 'IBM Plex Mono', monospace;
-    color: #51b20b !important; /* Keeps your green color */
-    letter-spacing: -1px;      /* Tights it up for a logo feel */
+    color: #51b20b !important;
+    letter-spacing: -1px;
+    
+    /* --- ADD THESE TWO LINES --- */
+    font-variant-numeric: slashed-zero !important;
+    font-feature-settings: "zero" !important;
 }
 
 /* Hide the Light/Dark mode toggle switch */
