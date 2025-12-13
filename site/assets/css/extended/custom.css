@@ -305,11 +305,12 @@
 /* Links inside the post body */
 .post-content a {
     color: #51b20b;
-    box-shadow: 0 1px 0 #51b20b; /* Matches the underline to the text color */
+    box-shadow: none; /* <--- This removes PaperMod's specific underline */
+    text-decoration: none; /* Good to keep just in case */
 }
 
-/* Optional: Slight fade on hover */
+/* Optional: Add underline ONLY on hover */
 .post-content a:hover {
-    box-shadow: 0 2px 0 #51b20b; /* Thicker underline on hover */
+    box-shadow: 0 2px 0 #51b20b; /* Adds the line back when you mouse over */
     opacity: 0.9;
 }
