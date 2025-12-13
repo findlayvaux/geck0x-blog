@@ -256,4 +256,21 @@ h1,h2,h3,h4
 	{
 	color: #51b20b;
 	}
-    
+
+/* =========================================
+   FORCE PITCH BLACK DARK MODE
+   ========================================= */
+
+/* Target the data attribute specifically */
+[data-theme="dark"] {
+    --theme: #000000 !important;       /* Main Background: Pure Black */
+    --entry: #121212 !important;       /* Post Tiles: Very Dark Grey */
+    --primary: #ffffff !important;     /* Text: Pure White */
+    --secondary: #aaaaaa !important;   /* Subtext: Light Grey */
+    --border: #333333 !important;      /* Borders: Dark Grey */
+}
+
+/* Double-tap: Force the body background just to be safe */
+[data-theme="dark"] body {
+    background-color: #000000 !important;
+}
