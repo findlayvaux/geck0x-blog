@@ -271,12 +271,32 @@
     --secondary: #a1a1aa !important;   
     
     /* Borders: Subtle separation */
-    --border: #27272a !important;      
+    --border: #27272a !important;
+
 }
 
 /* Force body background to match */
 [data-theme="dark"] body {
     background-color: #161618 !important;
+}
+
+/* Force Header to be Pitch Black in Dark Mode */
+[data-theme="dark"] .header {
+    background: #000000 !important;
+    /* Optional: adds a subtle line to separate header from body */
+    border-bottom: 1px solid #222; 
+}
+
+/* Force Header to be light gray in Light Mode */
+[data-theme="light"] .header{
+    background: #e5e5e5 !important;
+    /* Optional: adds a subtle line to separate header from body */
+    border-bottom: 1px solid #f5f5f5; 
+}
+
+/* Ensure the nav container inside doesn't override it */
+[data-theme="dark"] .nav {
+    background: transparent !important;
 }
 
 /* Change homepage post titles to Geck0x Green */
