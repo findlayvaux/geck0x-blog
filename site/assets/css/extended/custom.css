@@ -254,19 +254,26 @@
 
 
 /* =========================================
-   FORCE PITCH BLACK DARK MODE
+   READER-FRIENDLY DARK MODE (Best for Long Posts)
    ========================================= */
-
-/* Target the data attribute specifically */
 [data-theme="dark"] {
-    --theme: #000000 !important;       /* Main Background: Pure Black */
-    --entry: #121212 !important;       /* Post Tiles: Very Dark Grey */
-    --primary: #ffffff !important;     /* Text: Pure White */
-    --secondary: #aaaaaa !important;   /* Subtext: Light Grey */
-    --border: #333333 !important;      /* Borders: Dark Grey */
+    /* Background: Very dark grey (not black) to reduce contrast strain */
+    --theme: #161618 !important;       
+    
+    /* Cards: Slightly lighter to distinguish from background */
+    --entry: #1e1e20 !important;       
+    
+    /* Text: "Off-white" (approx 88%) prevents "vibrating text" */
+    --primary: #e4e4e7 !important;     
+    
+    /* Secondary text: Soft grey for metadata */
+    --secondary: #a1a1aa !important;   
+    
+    /* Borders: Subtle separation */
+    --border: #27272a !important;      
 }
 
-/* Double-tap: Force the body background just to be safe */
+/* Force body background to match */
 [data-theme="dark"] body {
-    background-color: #000000 !important;
+    background-color: #161618 !important;
 }
