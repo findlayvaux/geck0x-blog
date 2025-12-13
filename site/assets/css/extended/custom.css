@@ -235,24 +235,25 @@
     }
 } /* <--- CRITICAL: This brace closes the Mobile Section */
 
-#menu
-{
-	span
-	{	border: 2px #555 solid;
-		border-radius: 4px;
-		padding: 6px;
+/* FIX: Target only the text, remove global borders */
+#menu li {
+    display: inline-block;
+}
 
-    }
-	.active
-	{
-		border: 2px #51b20b solid;
-		border-radius: 4px;
-		padding: 6px;
-    }
+#menu span {
+    /* Reset: No border or padding on normal links so they look like text */
+    border: none;
+    padding: 0 10px; /* simple spacing between words */
+    border-radius: 0;
+}
+
+/* ONLY the page you are currently on gets the Green Border */
+#menu .active {
+    border-bottom: 3px solid #51b20b; /* Underline style is cleaner than a box */
+    padding-bottom: 5px;
+    border-radius: 0;
 }
     
-
-
 /* =========================================
    READER-FRIENDLY DARK MODE (Best for Long Posts)
    ========================================= */
@@ -276,4 +277,9 @@
 /* Force body background to match */
 [data-theme="dark"] body {
     background-color: #161618 !important;
+}
+
+/* Change homepage post titles to Geck0x Green */
+.entry-header h2, .related-card h4 {
+    color: #51b20b !important;
 }
