@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
 /* =========================================
    1. GLOBAL & LAYOUT VARIABLES
    ========================================= */
@@ -310,7 +312,8 @@ ty
     padding: 0px !important; 
 }
 
-/* Make the Site Logo Text Green */
 .logo a {
-    color: #51b20b !important;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #51b20b !important; /* Keeps your green color */
+    letter-spacing: -1px;      /* Tights it up for a logo feel */
 }
