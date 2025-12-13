@@ -282,12 +282,13 @@
 
 /* Force Header to be Pitch Black in Dark Mode */
 [data-theme="dark"] .header {
-    /* Optional: adds a subtle line to separate header from body */
+    background: #000000 !important;
     border-bottom: 1px solid #51b20b; 
 }
 
 /* Force Header to be light gray in Light Mode */
 [data-theme="light"] .header{
+    background: #e5e5e5 !important;
     /* Optional: adds a subtle line to separate header from body */
     border-bottom: 1px solid #51b20b; 
 }
@@ -314,3 +315,15 @@
     box-shadow: 0 2px 0 #51b20b;
     opacity: 0.9;
 }
+
+/* FIX 2: Header Width Correction */
+.nav {
+    /* 1100px Content + 40px Gap = 1140px Total */
+    max-width: 1140px !important; 
+    width: 100% !important;
+    margin: 0 auto;
+    
+    /* Matches the body's side spacing exactly */
+    padding: 0px !important; 
+}
+
