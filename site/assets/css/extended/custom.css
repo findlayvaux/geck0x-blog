@@ -282,16 +282,14 @@
 
 /* Force Header to be Pitch Black in Dark Mode */
 [data-theme="dark"] .header {
-    background: #000000 !important;
     /* Optional: adds a subtle line to separate header from body */
-    border-bottom: 2px solid #51b20b; 
+    border-bottom: 1px solid #51b20b; 
 }
 
 /* Force Header to be light gray in Light Mode */
 [data-theme="light"] .header{
-    background: #e5e5e5 !important;
     /* Optional: adds a subtle line to separate header from body */
-    border-bottom: 2px solid #51b20b; 
+    border-bottom: 1px solid #51b20b; 
 }
 
 /* Ensure the nav container inside doesn't override it */
@@ -302,4 +300,16 @@
 /* Change homepage post titles to Geck0x Green */
 .entry-header h2, .related-card h4 {
     color: #51b20b !important;
+}
+
+/* Links inside the post body */
+.post-content a {
+    color: #51b20b;
+    box-shadow: 0 1px 0 #51b20b; /* Matches the underline to the text color */
+}
+
+/* Optional: Slight fade on hover */
+.post-content a:hover {
+    box-shadow: 0 2px 0 #51b20b; /* Thicker underline on hover */
+    opacity: 0.9;
 }
