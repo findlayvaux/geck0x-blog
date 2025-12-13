@@ -32,7 +32,7 @@ disableKinds = ["RSS"]
   title = "Geck0x Crypto Blog"
   description = "A Crypto Safety Blog for Non-Cyborgs"
   author = "Geck0x"
-  defaultTheme = "auto"
+  defaultTheme = "dark"
   ShowReadingTime = true
   ShowShareButtons = true
   ShareButtons = ["x", "linkedin", "reddit", "facebook"]
@@ -93,3 +93,5 @@ disableKinds = ["RSS"]
     text = "Geck0x"
     icon = "/img/header-logo-100.png"   # Path to your image (relative to static)
     iconHeight = 40                # Controls the size (30-40 is usually good)
+
+

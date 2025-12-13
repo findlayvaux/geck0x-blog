@@ -317,3 +317,8 @@ ty
     color: #51b20b !important; /* Keeps your green color */
     letter-spacing: -1px;      /* Tights it up for a logo feel */
 }
+
+/* Hide the Light/Dark mode toggle switch */
+#theme-toggle {
+    display: none !important;
+}
