@@ -51,7 +51,7 @@ Think of it like buying a candy bar from a vending machine. You feed the machine
 
 ![smart contract mechanics](/img/smart-contract-infographic.webp "smart contract mechanics")
 
-Smart contracts take the permissionless concept and apply it to finance, games, art, tokens, and everything else on the chain. [Every decentralized finance (DeFi)](/posts/defi-on-base-the-no-bs-guide-to-decentralized-finance-without-getting-rekt/) protocol, NFT marketplace, and memecoin is powered by these contracts. **They work like switches. If this happens, do that.** And they do the same thing every time the same condition trips the switch. Smart contracts can even call other smart contracts or act on events from the analog world. Powerful stuff.
+Smart contracts take the permissionless concept and apply it to finance, games, art, tokens, and everything else on the chain. Every [decentralized finance (DeFi)](/posts/defi-on-base-the-no-bs-guide-to-decentralized-finance-without-getting-rekt/) protocol, NFT marketplace, and memecoin is powered by these contracts. **They work like switches. If this happens, do that.** And they do the same thing every time the same condition trips the switch. Smart contracts can even call other smart contracts or act on events from the analog world. Powerful stuff.
 
 Base uses these EVM smart contracts, does the math and switch logic on the fly, and then passes the transactions to Ethereum in bulk. Base says to Ethereum, "Yo, big brother, this is my record of what happened. **Make sure nobody can change it.**"
 
