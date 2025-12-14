@@ -5,7 +5,7 @@ description = "Geck0x Crypto Safety Blog. Learn how to use crypto safely."
 
 # Geck0x Crypto Safety Blog
 
-<div class="video-float">
+<div class="media-float">
   <video autoplay muted playsinline preload="auto">
     <source src="/media/geck0x-coding-silent.mp4" type="video/mp4">
     Your browser does not support the video tag.

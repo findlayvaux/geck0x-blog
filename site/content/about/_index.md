@@ -2,7 +2,7 @@
 title = "About Geck0x.com"
 +++
 
-<div class="video-float">
+<div class="media-float">
 <p><img src="/img/geck0x-og.png" 
      alt="Geck0x" 
       title="Geck0x">
