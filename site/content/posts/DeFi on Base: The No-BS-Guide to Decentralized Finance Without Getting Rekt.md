@@ -47,9 +47,19 @@ Alright, time for the main event. Your first real DeFi action. We're about to do
 
 ![DEX swap on Base](/img/base-dex-swap.webp "DEX swap on Base")
 
-A DEX, or Decentralized Exchange, is exactly what it sounds like. It's an exchange with no central authority. It’s just a smart contract sitting on the blockchain, waiting for you to come trade. Think of it like a public pool of tokens (a liquidity pool). When you want to swap something you have for something else, you tell the contract how much and which tokens. For example, you can tell the contract how much ETH you want to spend and the smart contract gives you back the equivalent amount of whatever token you select. You'' just pay a small fee for everyone else who’s chipping in to keep the pool full.
+A DEX, or Decentralized Exchange, is exactly what it sounds like. It's an exchange with no central authority. It’s just a smart contract sitting on the blockchain, waiting for you to come trade. Think of it like a public pool of tokens (a liquidity pool). When you want to swap something you have for something else, you tell the contract how much and which tokens. 
 
-So, how do you actually do a DEX swap? It's easier than you think.
+<div class="media-float">
+<p>
+<a href="https://lumpyonbase.com/#island-dwellers" target="_blank" rel="noopener noreferrer">
+	<img src="/img/jimmy-lost-toe-rug-pull-fixed.png" alt="Jimmy" title="Jimmy">
+</a>
+</p>
+</div>
+
+For example, you can tell the contract how much ETH you want to spend and the smart contract gives you back the equivalent amount of whatever token you select. You'' just pay a small fee for everyone else who’s chipping in to keep the pool full.
+
+So, how do you actually do a DEX swap? It's easier than you think (but not without risk).
 
 ### Step 1: Get Your Wallet Sorted, First
 

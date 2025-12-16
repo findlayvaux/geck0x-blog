@@ -68,10 +68,11 @@ You're trusting these massive, regulated companies to tell the Feds to take a hi
 Layer 2s are a different beast. Stop thinking of them as blockchains and start thinking of them as software companies running a sophisticated database _on top of_ Ethereum.
 
 <div class="media-float">
-  <video autoplay muted playsinline preload="auto">
-    <source src="/media/lumpy-wait-wut-short.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<p>
+<a href="https://lumpyonbase.com/#island-dwellers" target="_blank" rel="noopener noreferrer">
+<img src="/img/lumpy-wait-wut.png" alt="Lumpy" title="Lumpy">
+</a>
+</p>
 </div>
 
 Most major L2s like **Base, Arbitrum, and Optimism** are in what the crypto nerds call **"Stage 1."** That's geek speak for "Trust, but verify (and pray the Security Council doesn't override the code)." The main risk is political: the sequencer. On a chain like Base, a single computer (run by **Coinbase**) decides the order of all transactions. Rumor has it the [Base sequencer](https://docs.base.org/terms-of-service#the-services) lives in Jesse Pollack's bedroom under a stack of old Byte magazines.

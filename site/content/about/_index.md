@@ -3,9 +3,10 @@ title = "About Geck0x.com"
 +++
 
 <div class="media-float">
-<p><img src="/img/geck0x-og.png" 
-     alt="Geck0x" 
-      title="Geck0x">
+<p>
+<a href="https://lumpyonbase.com/#island-dwellers" target="_blank" rel="noopener noreferrer">
+<img src="/img/geck0x-og.png" alt="Geck0x" title="Geck0x">
+</a>
 </p>
 </div>
 
