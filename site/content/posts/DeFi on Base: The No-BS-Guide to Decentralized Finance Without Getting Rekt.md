@@ -57,7 +57,7 @@ A DEX, or Decentralized Exchange, is exactly what it sounds like. It's an exchan
 </p>
 </div>
 
-For example, you can tell the contract how much ETH you want to spend and the smart contract gives you back the equivalent amount of whatever token you select. You'' just pay a small fee for everyone else who’s chipping in to keep the pool full.
+For example, you can tell the contract how much ETH you want to spend and the smart contract gives you back the equivalent amount of whatever token you select. You just pay a small fee for everyone else who’s chipping in to keep the pool full.
 
 So, how do you actually do a DEX swap? It's easier than you think, but not without risk. Just ask Jimmy.
 
