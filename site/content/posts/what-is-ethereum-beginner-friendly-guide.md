@@ -221,7 +221,7 @@ Ethereum didn’t just create a network. It created an ecosystem standard that p
 
 ## **Risks and Limitations (It’s Like a Jungle Sometimes)**
 
-Ethereum is pretty awesome, but it isn't perfect (yet). Using the ecosystem comes with occasional tradeoffs and some risks you'll want to avoid.
+Ethereum is pretty awesome, but it isn't perfect (yet). Using the ecosystem comes with occasional trade-offs and some risks you'll want to avoid.
 
 ### **Gas Fees Can Spike**
 
@@ -246,7 +246,7 @@ Blockchain says, “Tough tacos, toots. Maybe next time put down the bong, first
 
 Ethereum is wonderfully nerdy stuff. But that also makes it a bit tougher to use if you're new to this. The good news is that the Based devs are working to make it easier to for all of us, abstracting all the geeky code stuff and giving users a simpler interface for powerful dApps. Point. Click. Done.
 
-Case in point: [Token Bundles on Lumpy Labs](https://lumpylabs.com/bundles). Buy up to five tokens in a few clicks. All that shizzle would take a few days to track down and buy without this cool tool.
+Case in point: [Token Bundles on Lumpy Labs](https://lumpylabs.com/bundles). Buy up to five tokens in a few clicks. Finding the right contract addys, dodging dodgy pools, and getting the best prices would take a few days without this cool tool.
 
 ![lumpy labs bundles](/img/lumpy-labs-bundles.png "lumpy labs bundles")
 
@@ -256,6 +256,6 @@ Case in point: [Token Bundles on Lumpy Labs](https://lumpylabs.com/bundles). Buy
   </a>
 </div>
 
-Despite the occasional blockchain gotchas you'll learn to avoid, Ethereum has proven to be the most battle-tested programmable blockchain in the cryptoverse and there are tons of great projects in the ecosystem. Ethereum's also the base layer that keeps the L2 chains secure. 
+Despite the occasional blockchain gotchas you'll learn to avoid, Ethereum has proven to be the most battle-tested programmable blockchain in the cryptoverse. And there are tons of great projects in the ecosystem. Ethereum's also the base layer that keeps the L2 chains secure. 
 
 Vive la Ethereum!

@@ -7,7 +7,7 @@ draft = false
 
 [cover]
 image = "img/blockchain-decentralization-loading.png"
-alt = "blockchain decentralization - is crypto denentralized"
+alt = "blockchain decentralization - is crypto decentralized"
 relative = false
 +++
 
@@ -99,7 +99,7 @@ The smartest people in cryptoland know this isn't quite what we were promised. T
 
 We're def not there yet.
 
-Over on Solana, the biggest weakness has been that everyone runs the same software, that and data-center reliance. One bug (or pulled AWS plug) could crash the whole network. There's progress on the software front, tho. [**Firedancer**](https://github.com/firedancer-io/firedancer) is a completely independent client written by a different team. Once widely adopted, it ensures the network has true software diversity, making it orders of magnitude more robust.
+Over on Solana, the biggest weakness has been that everyone runs the same software, that and data-center reliance. One bug (or pulled AWS plug) could crash the whole network. There's progress on the software front, tho. [Firedancer](https://github.com/firedancer-io/firedancer) is a completely independent client written by a different team. Once widely adopted, it ensures the network has true software diversity, making it orders of magnitude more robust.
 
 ### **Conclusion: The "Pick Your Poison" Cheat Sheet**
 
@@ -118,4 +118,4 @@ L2s (Base/Arb) are for Scale (Accepting some corporate control for low fees).
 
 L3s are for Fun (Assume the tokens could get stuck in L3 wonderland).
 
-Know what you own, and don't store your life savings on a single chain without understanding the risks. geck0x, out.
+Know what you own, and don't store your life savings on a single chain without understanding the risks. Geck0x, out.

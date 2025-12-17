@@ -96,7 +96,7 @@ In DeFi, we cut out the middleman. You are the bank.
 
 ![DeFi lending on Base](/img/defi-lending-base.webp "DeFi lending on Base")
 
-Here's the no-BS breakdown: You lend your crypto to a smart contract-run lending pool. Other people come along and borrow from that pool. They pay interest, and that interest gets paid directly to you, proportinal to your share of the pool. And your bank is open 24/7, so you can lend to anyone, anywhere in the world.
+Here's the no-BS breakdown: You lend your crypto to a smart contract-run lending pool. Other people come along and borrow from that pool. They pay interest, and that interest gets paid directly to you, proportional to your share of the pool. And your bank is open 24/7, so you can lend to anyone, anywhere in the world.
 
 The big name in the game that you'll find on Base is [Aave](https://aave.com/). They've been around since the OG DeFi days and have survived more market crashes than a cockroach Aave's a good place to start. The protocol even has a [user-funded insurance pool](https://aave.com/docs/aave-v3/umbrella), funded by staking. We'll get to staking in a bit.
 
@@ -153,7 +153,7 @@ Boooo! You lose your collateral. You're left with the USDC you borrowed, but you
 
 Alright, remember back when we mentioned that the internet calls everything "staking"? It's time to untangle that mess.
 
-In the purest sense, "staking" means locking up your tokens to help secure a Proof-of-Stake (PoS) blockchain (like Ethereum itself) and earning staking rewards for it. You're pledging tokens as collateral that helps ensure valaidators behave honestly. You get paid for locking up your tokens to secure the chain. Simple but elegant.
+In the purest sense, "staking" means locking up your tokens to help secure a Proof-of-Stake (PoS) blockchain (like Ethereum itself) and earning staking rewards for it. You're pledging tokens as collateral that helps ensure validators behave honestly. You get paid for locking up your tokens to secure the chain. Simple but elegant.
 
 But, somewhere along the line, chip-crunching degens hijacked the term. Now, "staking" is a catch-all for any action where you lock your tokens in a smart contract to earn a yield. It's less about securing the network and more about putting your money to work. We'll roll with that definition because that's how you'll see it everywhere.
 
@@ -198,9 +198,9 @@ Read every single pop-up from your wallet. If it says "Unlimited approval," and 
 
 Your gut is a better scam detector than any smart contract auditor. If something feels off, it likely is.
 
-* If the project name or website domain name is mispelled, it's a scam.
+* If the project name or website domain name is misspelled, it's a scam.
 * If they're begging you to "bridge" to a brand new, unheard-of chain to get their "airdrop," that's a scam too.
-* If the only "community" is a Telegram group full of dopey bots spamming "TO THE MOON!," it's a scam, fam. Exect the liquidity pool to vanish.
+* If the only "community" is a Telegram group full of dopey bots spamming "TO THE MOON!," it's a scam, fam. Expect the liquidity pool to vanish.
 * If someone on Telegram or X posts something about V2 or a token relaunch, don't fall for it. Safe bet it's a scam.
 
 If it sounds too good to be true or seems a bit off, it's probably a fly trap waiting for an unsuspecting fly.
@@ -209,7 +209,7 @@ If it sounds too good to be true or seems a bit off, it's probably a fly trap wa
 
 Don't ape into something just because a tweet from an anon account with a pixwlated penguin smoking a cig for a profile picture told you to. Trust no one, and learn to be a blockchain detective.
 
-* **Check the contract:** Use tools like Base Explorer, Honeypot.is, and Tokensniffer to check the token's details. Thjere tools let you see if the token has dangerous functions and whether the liquidity pool can disappear leaving everyone with worthless tokens.
+* **Check the contract:** Use tools like Base Explorer, Honeypot.is, and Tokensniffer to check the token's details. These tools let you see if the token has dangerous functions and whether the liquidity pool can disappear leaving everyone with worthless tokens.
 * **Look at the tokenomics:** Who owns the tokens? Is one wallet holding 50% of the supply? If so, they can dump on you at any moment. It's not if, it's when. Run.
 * **Find the team:** Is the team anonymous? That’s common in crypto, but it can also be a risk. A doxxed team with a public reputation has a lot more to lose... and they can't just swap screen names and do it all over again.
 
