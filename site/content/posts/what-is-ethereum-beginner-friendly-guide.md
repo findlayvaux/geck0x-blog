@@ -179,7 +179,17 @@ A lot of the same apps that are huge hits on Ethereum exist on [Layer 2 networks
 
 ## **Why Ethereum Matters (And Why Geeks Won’t Shut Up About It)**
 
-Ethereum solved a problem. Bitcoin is cool, but it doesn't support enough commands to call it a programmable blockchain. It wasn't "Turing complete." Ethereum's enhanced programmability lets anyone build apps that can do virtually anything. And it made the network open to everyone. You, me, the weird guy at the bus stop, we can all deploy smart contracts to the network.
+Ethereum solved a problem. Bitcoin is cool, but it doesn't support enough commands to call it a programmable blockchain. It wasn't "Turing complete." Ethereum's enhanced programmability lets anyone build apps that can do virtually anything. 
+
+<div class="media-float">
+<p>
+<a href="https://lumpyonbase.com/#island-dwellers" target="_blank" rel="noopener noreferrer">
+<img src="/img/gunnar-at-bus-stop.png" alt="Gunnar" title="Gunnar">
+</a>
+</p>
+</div>
+
+And it made the network open to everyone. You, me, the weird guy at the bus stop, we can all deploy smart contracts to the network.
 
 Ethereum's open, code-executing network unlocked a world of goodies.
 
