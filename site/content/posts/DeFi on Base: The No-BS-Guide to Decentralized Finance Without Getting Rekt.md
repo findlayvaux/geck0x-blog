@@ -59,15 +59,17 @@ A DEX, or Decentralized Exchange, is exactly what it sounds like. It's an exchan
 
 For example, you can tell the contract how much ETH you want to spend and the smart contract gives you back the equivalent amount of whatever token you select. You'' just pay a small fee for everyone else who’s chipping in to keep the pool full.
 
-So, how do you actually do a DEX swap? It's easier than you think (but not without risk).
+So, how do you actually do a DEX swap? It's easier than you think, but not without risk. Just ask Jimmy.
 
 ### Step 1: Get Your Wallet Sorted, First
 
-You can’t show up to the party without an ID. In the crypto world, your wallet address is your identity on the network. If you don’t have a wallet already, grab [MetaMask](https://metamask.io/) or [Rabby](https://rabby.io/). They’re both pretty good. Next, secure your seed phrase offline. This secret phrase is the key to your crypto kingdom, so guard it well.
+You can’t show up to the party without an ID. In the crypto world, your wallet address is your identity on the network. If you don’t have a wallet already, grab [MetaMask](https://metamask.io/) or [Rabby.](https://rabby.io/) They’re both pretty good. Next, secure your seed phrase offline. This secret phrase is the key to your crypto kingdom, so guard it well.
 
 ### Step 2: Get Some ETH onto Base
 
-If you have an account with Coinbase (or most other platforms) you can buy ETH with fiat currency (like the US dollar) and send the ETH to your wallet using the Base network. If you have ETH sitting on Ethereum, we need to teleport it over to Base. This is called "bridging." The easiest and safest way to bridge to Base is to use the official Base Bridge. You connect your wallet, select Ethereum as the source and Base as the destination, and boom! Your ETH appears on the other side, ready to spend on whatever your degen mind dreams up. After the bridging fees (paid to Ethereum), it'll get cheaper. We're on Base now, baby.
+If you have an account with Coinbase (or most other platforms) you can buy ETH with fiat currency (like the US dollar) and send the ETH to your wallet using the Base network. 
+
+If you have ETH sitting on Ethereum, we need to teleport it over to Base. This is called "bridging." The easiest and safest way to bridge to Base is to use the official Base Bridge. You connect your wallet, select Ethereum as the source and Base as the destination, and boom! Your ETH appears on the other side, ready to spend on whatever your degen mind dreams up. After the bridging fees (paid to Ethereum), it'll get cheaper. We're on Base now, baby.
 
 ### Step 3: Pick a DEX and Connect 
 
