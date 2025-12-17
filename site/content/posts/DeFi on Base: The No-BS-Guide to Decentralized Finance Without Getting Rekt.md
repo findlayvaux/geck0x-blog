@@ -63,7 +63,7 @@ So, how do you actually do a DEX swap? It's easier than you think, but not witho
 
 ### Step 1: Get Your Wallet Sorted, First
 
-You can’t show up to the party without an ID. In the crypto world, your wallet address is your identity on the network. If you don’t have a wallet already, grab [MetaMask](https://metamask.io/) or [Rabby.](https://rabby.io/) They’re both pretty good. Next, secure your seed phrase offline. This secret phrase is the key to your crypto kingdom, so guard it well.
+You can’t show up to the party without an ID. In the crypto world, your wallet address is your identity on the network. If you don’t have a wallet already, grab [MetaMask](https://metamask.io/) or [Rabby](https://rabby.io/). They’re both pretty good. Next, secure your seed phrase offline. This secret phrase is the key to your crypto kingdom, so guard it well.
 
 ### Step 2: Get Some ETH onto Base
 
