@@ -189,7 +189,7 @@ Ethereum solved a problem. Bitcoin is cool, but it doesn't support enough comman
 </p>
 </div>
 
-And it made the network open to everyone. You, me, the weird guy at the bus stop, we can all deploy smart contracts to the network.
+And it made the network open to everyone. You, me, the weird blue guy at the bus stop, we can all deploy smart contracts to the network.
 
 Ethereum's open, code-executing network unlocked a world of goodies.
 
